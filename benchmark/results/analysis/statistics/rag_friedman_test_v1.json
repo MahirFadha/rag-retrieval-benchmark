@@ -1,0 +1,42 @@
+{
+  "alpha": 0.05,
+  "artifact": "RAG Friedman Test v1",
+  "effect_size": "Kendall's W",
+  "method": "Friedman repeated-measures non-parametric omnibus test.",
+  "records": [
+    {
+      "alpha": 0.05,
+      "degrees_of_freedom": 2,
+      "k": 3,
+      "kendalls_w": 0.003070175438597688,
+      "metric": "faithfulness",
+      "n": 40,
+      "p_value": 0.884434326401289,
+      "significant": false,
+      "statistic_chi_square": 0.24561403508781507
+    },
+    {
+      "alpha": 0.05,
+      "degrees_of_freedom": 2,
+      "k": 3,
+      "kendalls_w": 0.005000000000000506,
+      "metric": "answer_relevancy",
+      "n": 40,
+      "p_value": 0.8187307530779653,
+      "significant": false,
+      "statistic_chi_square": 0.40000000000004043
+    },
+    {
+      "alpha": 0.05,
+      "degrees_of_freedom": 2,
+      "k": 3,
+      "kendalls_w": 0.00833333333333523,
+      "metric": "answer_accuracy",
+      "n": 40,
+      "p_value": 0.716531310573735,
+      "significant": false,
+      "statistic_chi_square": 0.6666666666668183
+    }
+  ],
+  "source_master_sha256": "211936a8cbfe06e1f1b658a745371599f0362c8da5f80344c1ade4f695e95280"
+}

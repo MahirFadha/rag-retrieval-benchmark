@@ -1,0 +1,57 @@
+{
+  "analysis_environment": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "analysis_policy": {
+    "alpha": 0.05,
+    "descriptive_ci": "Two-sided 95% Student-t CI around sample mean.",
+    "multiple_comparison": "Holm correction within each metric family.",
+    "omnibus_effect_size": "Kendall's W",
+    "omnibus_test": "Friedman",
+    "pairwise_effect_size": "Matched-pairs rank-biserial correlation.",
+    "pairwise_test": "Two-sided paired Wilcoxon signed-rank",
+    "wilcoxon_method": "approx",
+    "wilcoxon_zero_method": "wilcox"
+  },
+  "artifact": "Aire Optima RAG Statistical Analysis v1",
+  "freeze_rule": "Do not modify the frozen statistical outputs. Subsequent category, domain, retrieval-success, and case analyses must use the frozen master analysis artifact and may cite these frozen overall statistical outputs.",
+  "outputs": {
+    "descriptive_csv": {
+      "sha256": "b7894fd04f8d593fae90b97ca825e4ab56b4b627699c6a82536a608a6b1bb066"
+    },
+    "descriptive_json": {
+      "sha256": "26f7b71f2b0020da701b489acc1a1c2bd3da4af26bde8b13fdb219888d549784"
+    },
+    "friedman_csv": {
+      "sha256": "fe6b01e9a48b180ec58513f4440ab0406bcf951071ce9a4584ee2a41eb68e58f"
+    },
+    "friedman_json": {
+      "sha256": "7cf50c5ceb245d55039e237042b14f8ee7b979665c6bc75f14567152457e97b7"
+    },
+    "pairwise_csv": {
+      "sha256": "3303b38b18b728ae07e59917c5d9a033d9ead44196d1cdce2ddca1477768f4ee"
+    },
+    "pairwise_json": {
+      "sha256": "1e21b391643ae99a43b33a0ce0a9fb11eff4fead35fedfd4ce198162fdca4697"
+    },
+    "summary_json": {
+      "sha256": "a204590c63ce3715742bcf3cd0c465a4341be853025ab15580b6924c73900569"
+    }
+  },
+  "source": {
+    "master_csv": {
+      "file": "benchmark\\results\\analysis\\rag_master_analysis_v1.csv",
+      "sha256": "cbfccaeadbb72ce549cedcac154e93e3cabda64a761275cf945259363901c4cb"
+    },
+    "master_jsonl": {
+      "file": "benchmark\\results\\analysis\\rag_master_analysis_v1.jsonl",
+      "sha256": "211936a8cbfe06e1f1b658a745371599f0362c8da5f80344c1ade4f695e95280"
+    },
+    "master_manifest": {
+      "file": "benchmark\\results\\analysis\\rag_master_analysis_manifest_v1.json",
+      "sha256": "e6eed1b98ac9b03baad57072bb184eeddf0f0d8d4b63fe535b1af8b08bf4a52d"
+    }
+  },
+  "status": "FROZEN"
+}

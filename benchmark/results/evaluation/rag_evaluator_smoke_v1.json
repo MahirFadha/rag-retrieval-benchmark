@@ -1,0 +1,49 @@
+{
+  "artifact": "Aire Optima RAG Evaluator Smoke Test v1",
+  "status": "SMOKE_TEST_ONLY",
+  "evaluation_dataset": {
+    "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+  },
+  "evaluator_config": {
+    "sha256": "60b4cd3d282f347834bd13b2c2dfc722e5a18ad8939bd3042c41b6c04bc35535"
+  },
+  "sample": {
+    "query_id": "Q001",
+    "method": "bm25"
+  },
+  "evaluator": {
+    "judge_model": "gemini-3.7-flash",
+    "judge_client": "Instructor AsyncInstructor",
+    "execution": "ascore",
+    "embedding_model": "gemini-embedding-001",
+    "answer_relevancy_strictness": 3
+  },
+  "api_key_pool": {
+    "available_unique_keys": 40,
+    "secret_values_saved": false
+  },
+  "metric_key_assignment": {
+    "faithfulness": "GEMINI_API_KEY",
+    "answer_relevancy": "GEMINI_API_KEY_2",
+    "answer_accuracy": "GEMINI_API_KEY_3"
+  },
+  "scores": [
+    {
+      "metric": "faithfulness",
+      "value": 1.0,
+      "reason": null
+    },
+    {
+      "metric": "answer_relevancy",
+      "value": 0.9480112362007586,
+      "reason": null
+    },
+    {
+      "metric": "answer_accuracy",
+      "value": 0.75,
+      "reason": null
+    }
+  ],
+  "generated_at_utc": "2026-09-05T11:40:24.044559+00:00",
+  "note": "Smoke test only. Scores are excluded from final aggregate evaluation."
+}

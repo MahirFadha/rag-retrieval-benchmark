@@ -1,0 +1,10 @@
+stratum,level,metric,n_queries,chi_square,df,p_raw,kendalls_w,p_holm,significant_raw,significant_holm
+domain,product_ac,faithfulness,12,1.6,2,0.4493289641172217,0.06666666666666667,1.0,False,False
+domain,product_ac,answer_relevancy,12,5.761904761904751,2,0.05608132660510674,0.24007936507936464,0.16824397981532024,False,False
+domain,product_ac,answer_accuracy,12,0.8571428571428571,2,0.6514390575310558,0.03571428571428571,1.0,False,False
+domain,service_ac,faithfulness,16,1.28,2,0.5272924240430487,0.04,1.0,False,False
+domain,service_ac,answer_relevancy,16,3.192982456140351,2,0.20260617110711163,0.09978070175438597,0.40521234221422325,False,False
+domain,service_ac,answer_accuracy,16,2.0,2,0.36787944117144245,0.0625,1.0,False,False
+domain,cctv,faithfulness,12,0.8235294117646792,2,0.662480135393935,0.034313725490194964,1.0,False,False
+domain,cctv,answer_relevancy,12,1.555555555555543,2,0.4594258240359297,0.06481481481481428,0.4594258240359297,False,False
+domain,cctv,answer_accuracy,12,1.0,2,0.6065306597126334,0.041666666666666664,1.0,False,False

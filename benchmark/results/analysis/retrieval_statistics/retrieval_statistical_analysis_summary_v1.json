@@ -1,0 +1,261 @@
+{
+  "alpha": 0.05,
+  "artifact": "Aire Optima Retrieval Statistical Analysis v1",
+  "cochran_q": [
+    {
+      "alpha": 0.05,
+      "df": 2,
+      "k_methods": 3,
+      "metric": "hit_at1",
+      "n_queries": 40,
+      "p_value": 0.2052896575799132,
+      "q_statistic": 3.1666666666666288,
+      "significant": false
+    },
+    {
+      "alpha": 0.05,
+      "df": 2,
+      "k_methods": 3,
+      "metric": "hit_at3",
+      "n_queries": 40,
+      "p_value": 0.8668778997502098,
+      "q_statistic": 0.28571428571422075,
+      "significant": false
+    },
+    {
+      "alpha": 0.05,
+      "df": 2,
+      "k_methods": 3,
+      "metric": "hit_at5",
+      "n_queries": 40,
+      "p_value": 0.7165313105736806,
+      "q_statistic": 0.6666666666669698,
+      "significant": false
+    }
+  ],
+  "methodological_notes": {
+    "binary_omnibus": "Cochran's Q is used for three related binary retrieval outcomes.",
+    "binary_pairwise": "Exact McNemar tests with Holm correction are used for paired Hit@K comparisons.",
+    "hit_recall": "Hit@K and Recall@K are numerically identical because each query has exactly one binary relevant document.",
+    "mrr": "Friedman omnibus and paired Wilcoxon signed-rank tests with Holm correction are used for reciprocal rank at 5."
+  },
+  "mrr_friedman": [
+    {
+      "alpha": 0.05,
+      "chi_square": 2.8148148148149494,
+      "df": 2,
+      "k_methods": 3,
+      "kendalls_w": 0.03518518518518687,
+      "metric": "mrr_at5",
+      "n_queries": 40,
+      "p_value": 0.2447770684393734,
+      "significant": false
+    }
+  ],
+  "mrr_pairwise_wilcoxon": [
+    {
+      "holm_p": 1.0,
+      "mean_difference_a_minus_b": 0.054166666666666675,
+      "mean_method_a": 0.8279166666666666,
+      "mean_method_b": 0.7737499999999999,
+      "method_a": "bm25",
+      "method_b": "e5",
+      "metric": "mrr_at5",
+      "n_nonzero": 14,
+      "rank_biserial": 0.20952380952380953,
+      "raw_p": 0.48585175452819007,
+      "significant_holm": false,
+      "w_minus": 41.5,
+      "w_plus": 63.5,
+      "wilcoxon_statistic": 41.5
+    },
+    {
+      "holm_p": 1.0,
+      "mean_difference_a_minus_b": 0.014583333333333332,
+      "mean_method_a": 0.8279166666666666,
+      "mean_method_b": 0.8133333333333332,
+      "method_a": "bm25",
+      "method_b": "hybrid_rrf",
+      "metric": "mrr_at5",
+      "n_nonzero": 10,
+      "rank_biserial": 0.14545454545454545,
+      "raw_p": 0.6807238293409504,
+      "significant_holm": false,
+      "w_minus": 23.5,
+      "w_plus": 31.5,
+      "wilcoxon_statistic": 23.5
+    },
+    {
+      "holm_p": 1.0,
+      "mean_difference_a_minus_b": -0.03958333333333334,
+      "mean_method_a": 0.7737499999999999,
+      "mean_method_b": 0.8133333333333332,
+      "method_a": "e5",
+      "method_b": "hybrid_rrf",
+      "metric": "mrr_at5",
+      "n_nonzero": 14,
+      "rank_biserial": -0.2857142857142857,
+      "raw_p": 0.33604807100467926,
+      "significant_holm": false,
+      "w_minus": 67.5,
+      "w_plus": 37.5,
+      "wilcoxon_statistic": 37.5
+    }
+  ],
+  "overall": [
+    {
+      "hit_at1": 0.775,
+      "hit_at3": 0.875,
+      "hit_at5": 0.925,
+      "method": "bm25",
+      "mrr_at5": 0.8279166666666666,
+      "n_queries": 40,
+      "recall_at1": 0.775,
+      "recall_at3": 0.875,
+      "recall_at5": 0.925
+    },
+    {
+      "hit_at1": 0.65,
+      "hit_at3": 0.9,
+      "hit_at5": 0.95,
+      "method": "e5",
+      "mrr_at5": 0.7737499999999999,
+      "n_queries": 40,
+      "recall_at1": 0.65,
+      "recall_at3": 0.9,
+      "recall_at5": 0.95
+    },
+    {
+      "hit_at1": 0.725,
+      "hit_at3": 0.9,
+      "hit_at5": 0.925,
+      "method": "hybrid_rrf",
+      "mrr_at5": 0.8133333333333332,
+      "n_queries": 40,
+      "recall_at1": 0.725,
+      "recall_at3": 0.9,
+      "recall_at5": 0.925
+    }
+  ],
+  "pairwise_mcnemar": [
+    {
+      "a_fail_b_success": 3,
+      "a_success_b_fail": 8,
+      "discordant": 11,
+      "exact_p_value": 0.2265625,
+      "holm_p": 0.6796875,
+      "method_a": "bm25",
+      "method_b": "e5",
+      "metric": "hit_at1",
+      "rate_method_a": 0.775,
+      "rate_method_b": 0.65,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 2,
+      "a_success_b_fail": 4,
+      "discordant": 6,
+      "exact_p_value": 0.6875,
+      "holm_p": 0.90625,
+      "method_a": "bm25",
+      "method_b": "hybrid_rrf",
+      "metric": "hit_at1",
+      "rate_method_a": 0.775,
+      "rate_method_b": 0.725,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 5,
+      "a_success_b_fail": 2,
+      "discordant": 7,
+      "exact_p_value": 0.453125,
+      "holm_p": 0.90625,
+      "method_a": "e5",
+      "method_b": "hybrid_rrf",
+      "metric": "hit_at1",
+      "rate_method_a": 0.65,
+      "rate_method_b": 0.725,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 4,
+      "a_success_b_fail": 3,
+      "discordant": 7,
+      "exact_p_value": 1.0,
+      "holm_p": 1.0,
+      "method_a": "bm25",
+      "method_b": "e5",
+      "metric": "hit_at3",
+      "rate_method_a": 0.875,
+      "rate_method_b": 0.9,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 2,
+      "a_success_b_fail": 1,
+      "discordant": 3,
+      "exact_p_value": 1.0,
+      "holm_p": 1.0,
+      "method_a": "bm25",
+      "method_b": "hybrid_rrf",
+      "metric": "hit_at3",
+      "rate_method_a": 0.875,
+      "rate_method_b": 0.9,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 2,
+      "a_success_b_fail": 2,
+      "discordant": 4,
+      "exact_p_value": 1.0,
+      "holm_p": 1.0,
+      "method_a": "e5",
+      "method_b": "hybrid_rrf",
+      "metric": "hit_at3",
+      "rate_method_a": 0.9,
+      "rate_method_b": 0.9,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 2,
+      "a_success_b_fail": 1,
+      "discordant": 3,
+      "exact_p_value": 1.0,
+      "holm_p": 1.0,
+      "method_a": "bm25",
+      "method_b": "e5",
+      "metric": "hit_at5",
+      "rate_method_a": 0.925,
+      "rate_method_b": 0.95,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 0,
+      "a_success_b_fail": 0,
+      "discordant": 0,
+      "exact_p_value": 1.0,
+      "holm_p": 1.0,
+      "method_a": "bm25",
+      "method_b": "hybrid_rrf",
+      "metric": "hit_at5",
+      "rate_method_a": 0.925,
+      "rate_method_b": 0.925,
+      "significant_holm": false
+    },
+    {
+      "a_fail_b_success": 1,
+      "a_success_b_fail": 2,
+      "discordant": 3,
+      "exact_p_value": 1.0,
+      "holm_p": 1.0,
+      "method_a": "e5",
+      "method_b": "hybrid_rrf",
+      "metric": "hit_at5",
+      "rate_method_a": 0.95,
+      "rate_method_b": 0.925,
+      "significant_holm": false
+    }
+  ],
+  "source_master_sha256": "211936a8cbfe06e1f1b658a745371599f0362c8da5f80344c1ade4f695e95280",
+  "status": "COMPLETE_NOT_YET_FROZEN"
+}

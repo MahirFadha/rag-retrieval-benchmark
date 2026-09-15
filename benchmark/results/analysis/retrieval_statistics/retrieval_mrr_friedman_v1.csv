@@ -1,0 +1,2 @@
+metric,n_queries,k_methods,chi_square,df,p_value,alpha,significant,kendalls_w
+mrr_at5,40,3,2.8148148148149494,2,0.2447770684393734,0.05,False,0.03518518518518687

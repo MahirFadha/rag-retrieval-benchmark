@@ -1,0 +1,48 @@
+{
+  "artifact": "Aire Optima RAG Generated Answers v2",
+  "status": "FROZEN",
+  "generated_answers": {
+    "file": "benchmark\\results\\rag\\rag_generated_answers_v2.jsonl",
+    "sha256": "4fec3abd2320c48ecf0d654e830ec6b2effba83a84808fb92970b85dbbdb0af8",
+    "count": 120
+  },
+  "source_artifacts": {
+    "rag_input": {
+      "file": "benchmark\\data\\rag\\rag_generation_inputs_v1.jsonl",
+      "sha256": "742937ac9af494eb41fb0662dcdce02a2cf30f06c1eb02a57c98d37bc7067a93"
+    },
+    "system_prompt": {
+      "file": "benchmark\\config\\rag_system_prompt_v1.txt",
+      "sha256": "d9c57f250512b2c2a930d2837448d41cbb89d758d39f4a9e3926f2ddaf714c76"
+    },
+    "generator_config": {
+      "file": "benchmark\\config\\rag_generator_config_v2.json",
+      "sha256": "300d948329b8cb6ab024e96ad92cc889e48802a8d1f18ca9c2d801cc51035ba2"
+    }
+  },
+  "generation_validation": {
+    "unique_query_method_pairs": 120,
+    "method_counts": {
+      "bm25": 40,
+      "e5": 40,
+      "hybrid_rrf": 40
+    },
+    "finish_reason_counts": {
+      "STOP": 120
+    },
+    "model_version_counts": {
+      "gemini-3.6-flash": 120
+    },
+    "empty_answers": 0,
+    "duplicate_response_ids": 0
+  },
+  "token_usage": {
+    "prompt_tokens": 300360,
+    "output_tokens": 17399,
+    "thoughts_tokens": 20366,
+    "total_tokens": 338125
+  },
+  "mean_latency_seconds": 9.70106,
+  "note": "Generation v1 was excluded from final RAG evaluation because 10 responses ended with MAX_TOKENS. Generation v2 uses max_output_tokens=2048 and is the final generation artifact.",
+  "freeze_rule": "Do not modify or regenerate individual answers after evaluation begins."
+}

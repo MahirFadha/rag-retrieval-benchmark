@@ -1,0 +1,43 @@
+{
+  "artifact": "Aire Optima RAG Evaluator Config v1",
+  "status": "FROZEN",
+  "config": {
+    "file": "benchmark\\config\\rag_evaluator_config_v1.json",
+    "sha256": "60b4cd3d282f347834bd13b2c2dfc722e5a18ad8939bd3042c41b6c04bc35535"
+  },
+  "evaluation_dataset": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.jsonl",
+    "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+  },
+  "framework": {
+    "name": "ragas",
+    "version": "0.4.3"
+  },
+  "runtime_packages": {
+    "ragas": "0.4.3",
+    "google-genai": "2.21.0",
+    "litellm": null,
+    "pydantic": "2.13.4"
+  },
+  "judge": {
+    "provider": "google",
+    "model": "gemini-3.7-flash",
+    "thinking_control": "provider_default",
+    "documented_default_thinking_level": "medium"
+  },
+  "embedding": {
+    "provider": "google",
+    "model": "gemini-embedding-001",
+    "purpose": "answer_relevancy_only"
+  },
+  "primary_metrics": [
+    "faithfulness",
+    "answer_relevancy",
+    "answer_accuracy"
+  ],
+  "disabled_rag_context_metrics": [
+    "context_precision",
+    "context_recall"
+  ],
+  "freeze_rule": "Do not change evaluator model, embedding model, metric definitions, metric parameters, evaluation dataset, or evaluation policy after scoring begins."
+}

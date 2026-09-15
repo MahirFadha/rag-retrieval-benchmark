@@ -1,0 +1,52 @@
+{
+  "benchmark": "Aire Optima Retrieval Benchmark v1",
+  "corpus_file": "benchmark\\data\\canonical\\aire_catalog_final_v1.jsonl",
+  "corpus_sha256": "7e5c041917e43b32298ecf7dc02b571e11ffe6cf5c77b52dcf8b531d6b4609be",
+  "query_file": "benchmark\\data\\canonical\\aire_benchmark_queries_v1.jsonl",
+  "query_sha256": "dfbf771a3f7dc00d465be4e2605f9ccae7b0e2147933954d367cfcd0751bfb0d",
+  "document_count": 145,
+  "query_count": 40,
+  "methods": {
+    "bm25": {
+      "algorithm": "BM25Okapi",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25
+    },
+    "e5": {
+      "model": "intfloat/multilingual-e5-base",
+      "max_tokens": 512,
+      "embedding": "mean pooling + L2 normalization",
+      "ranking": "exact cosine similarity",
+      "device": "cuda"
+    },
+    "hybrid_rrf": {
+      "rrf_k": 60,
+      "bm25_weight": 1.0,
+      "e5_weight": 1.0,
+      "candidate_pool": 145,
+      "reranker": null
+    }
+  },
+  "metrics": [
+    "Hit@1",
+    "Hit@3",
+    "Hit@5",
+    "Recall@1",
+    "Recall@3",
+    "Recall@5",
+    "MRR@5"
+  ],
+  "relevance": {
+    "type": "binary",
+    "relevant_documents_per_query": 1
+  },
+  "environment": {
+    "python": "3.13.13",
+    "torch": "2.6.0+cu124",
+    "transformers": "5.8.0",
+    "rank-bm25": "0.2.2",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  }
+}

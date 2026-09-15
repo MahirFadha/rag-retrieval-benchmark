@@ -1,0 +1,146 @@
+﻿id,type,domain,name,index_strategy,detail_quality,detail_exclusion_reason,index_chars,context_chars,index_token_count,over_512,kept_ac_sections,cctv_cta_removed
+KDP001,product,AC,Sharp - 0.5 PK,product_full,accepted,,1283,1283,326,False,,False
+KDP002,product,AC,Hisense - 0.5 PK,product_full,accepted,,1260,1260,307,False,,False
+KDP003,product,AC,MITSUBISHI R32 - 0.5 PK,product_full,accepted,,1377,1377,342,False,,False
+KDP004,product,AC,DAIKIN THAILAND - 0.5 PK,product_full,accepted,,1254,1254,315,False,,False
+KDP005,product,AC,HONSHU - 0.5 PK,product_full,accepted,,1265,1265,304,False,,False
+KDP006,product,AC,TOSHIBA - 0.5 PK,product_full,accepted,,1279,1279,314,False,,False
+KDP007,product,AC,GREE - 0.5 PK,product_full,accepted,,1287,1287,329,False,,False
+KDP008,product,AC,SANSUI - 0.5 PK,product_full,accepted,,1217,1217,312,False,,False
+KDP009,product,AC,REIWA - 0.5 PK,product_full,accepted,,1169,1169,284,False,,False
+KDP010,product,AC,POLYTRON - 0.5 PK,product_full,accepted,,1241,1241,314,False,,False
+KDP012,product,AC,CHANGHONG - 0.5 PK,product_full,accepted,,1219,1219,298,False,,False
+KDP013,product,AC,POLYTRON INDO - 0.5 PK,product_full,accepted,,1308,1308,326,False,,False
+KDP014,product,AC,POLYTRON CHINA - 0.5 PK,product_full,accepted,,1245,1245,298,False,,False
+KDP016,product,AC,AQUA - 0.5 PK,product_full,accepted,,1326,1326,341,False,,False
+KDP017,product,AC,MIDEA - 0.5 PK,product_full,accepted,,1258,1258,319,False,,False
+KDP018,product,AC,BEKO - 0.5 PK,product_full,accepted,,1265,1265,319,False,,False
+KDP019,product,AC,CHANGHONG - 1 PK,product_full,accepted,,1257,1257,313,False,,False
+KDP020,product,AC,SHARP - 1 PK,product_full,accepted,,1249,1249,313,False,,False
+KDP021,product,AC,POLYTRON - 1 PK,product_full,accepted,,1270,1270,315,False,,False
+KDP022,product,AC,PANASONIC - 1 PK,product_full,accepted,,1230,1230,318,False,,False
+KDP023,product,AC,LG - 1 PK,product_full,accepted,,1207,1207,301,False,,False
+KDP025,product,AC,AQUA - 1 PK,product_full,accepted,,1256,1256,326,False,,False
+KDP026,product,AC,MITSHUBISHI R32 - 1 PK,product_full,accepted,,1237,1237,320,False,,False
+KDP027,product,AC,DAIKIN THAILAND - 1 PK,product_full,accepted,,1214,1214,296,False,,False
+KDP028,product,AC,HONSHU - 1 PK,product_full,accepted,,1177,1177,295,False,,False
+KDP029,product,AC,GREE - 1 PK,product_full,accepted,,1279,1279,330,False,,False
+KDP030,product,AC,SANSUI - 1 PK,product_full,accepted,,1211,1211,316,False,,False
+KDP031,product,AC,MIDEA - 1 PK,product_full,accepted,,1218,1218,310,False,,False
+KDP032,product,AC,CHANGHONG - 1.5 PK,product_full,accepted,,1303,1303,320,False,,False
+KDP033,product,AC,SHARP THAILAND - 1.5 PK,product_full,accepted,,1266,1266,321,False,,False
+KDP034,product,AC,PANASONIC - 1.5 PK,product_full,accepted,,1276,1276,326,False,,False
+KDP035,product,AC,MITSHUBISHI R32 - 1.5 PK,product_full,accepted,,1261,1261,318,False,,False
+KDP036,product,AC,MITSHUBISHI THAILAND - 1.5 PK,product_full,accepted,,1256,1256,323,False,,False
+KDP037,product,AC,DAIKIN - 1.5 PK,product_full,accepted,,1180,1180,305,False,,False
+KDP038,product,AC,HONSHU - 1.5 PK,product_full,accepted,,1220,1220,300,False,,False
+KDP039,product,AC,GREE - 1.5 PK,product_full,accepted,,1167,1167,314,False,,False
+KDP040,product,AC,MIDEA - 1.5 PK,product_full,accepted,,1212,1212,305,False,,False
+KDP041,product,AC,SHARP - 2 PK,product_full,accepted,,1263,1263,337,False,,False
+KDP042,product,AC,PANASONIC - 2 PK,product_full,accepted,,1237,1237,319,False,,False
+KDP043,product,AC,AQUA - 2 PK,product_full,accepted,,1235,1235,319,False,,False
+KDP044,product,AC,MITSHUBISHI THAILAND - 2 PK,product_full,accepted,,1268,1268,330,False,,False
+KDP045,product,AC,DAIKIN THAILAND - 2 PK,product_full,accepted,,1234,1234,323,False,,False
+KDP046,product,AC,HONSHU - 2 PK,product_full,accepted,,1230,1230,312,False,,False
+KDP047,product,AC,GREE - 2 PK,product_full,accepted,,1326,1326,332,False,,False
+KDP048,product,AC,MIDEA - 2 PK,product_full,accepted,,1184,1184,301,False,,False
+KDP049,product,AC,CHANGHONG - 2 PK,product_full,accepted,,1208,1208,315,False,,False
+KDP050,product,AC,HISENSE - 2 PK,product_full,accepted,,1288,1288,341,False,,False
+KDP051,product,AC,PANASONIC INDO - 0.5 PK,product_full,accepted,,415,415,112,False,,False
+KDP052,product,AC,SAMSUNG 0.5 PK,product_full,accepted,,392,392,98,False,,False
+KDP053,product,AC,SAMSUNG - 1 PK,product_full,accepted,,390,390,100,False,,False
+KDP054,product,AC,POLYTRON - 1.5 PK,product_full,accepted,,397,397,105,False,,False
+KDP055,product,AC,MITSUBISHI R32 - 2 PK,product_full,accepted,,408,408,114,False,,False
+KDP056,product,AC,DAIKIN 2 PK,product_full,accepted,,406,406,112,False,,False
+SRVC001,service,AC,Cuci AC Split - 0.5 - 1 PK,service_ac_section_aware,accepted,,859,1457,193,False,"duration,benefit,why,indicator",False
+SRVC002,service,AC,Cuci AC Standing - 0.5 -1 PK,service_ac_section_aware,accepted,,731,1229,177,False,"duration,benefit,why,indicator",False
+SRVC003,service,AC,Cuci AC Cassette - 0.5 -2 PK,service_ac_core_only_conflict_excluded,excluded_conflict,"Konflik kapasitas: nama layanan 0.5-2 PK, sedangkan service_detail menyebut 0.5-1 PK.",307,435,71,False,,False
+SRVC004,service,AC,Cuci AC Cassette - 3 - 5 PK,service_ac_core_only_conflict_excluded,excluded_conflict,"Konflik kapasitas: nama layanan 3-5 PK, sedangkan service_detail menyebut 1.5-2 PK.",306,434,72,False,,False
+SRVC005,service,AC,Cuci AC Split - 1.5 - 2 PK,service_ac_section_aware,accepted,,664,1095,157,False,"duration,benefit,why,indicator",False
+SRVC006,service,AC,Pengecekan AC - 0.5 - 1 PK,service_ac_section_aware,accepted,,626,999,147,False,"duration,benefit,why,indicator",False
+SRVC007,service,AC,Cuci AC Standing - 1.5 - 2 PK,service_ac_section_aware,accepted,,635,1021,160,False,"duration,benefit,why,indicator",False
+SRVC008,service,AC,Pengecekan AC - 1.5 - 2 PK,service_ac_section_aware,accepted,,587,927,141,False,"duration,benefit,why,indicator",False
+SRVC009,service,AC,Penambah Freon R-22 - 0.5 - 1 PK,service_ac_section_aware,accepted,,590,916,147,False,"duration,benefit,why,indicator",False
+SRVC011,service,AC,Penambah Freon R-32 - 0.5 - 1 PK,service_ac_section_aware,accepted,,590,916,147,False,"duration,benefit,why,indicator",False
+SRVC012,service,AC,Penambah Freon R-32 - 1.5 - 2 PK,service_ac_section_aware,accepted,,590,916,147,False,"duration,benefit,why,indicator",False
+SRVC013,service,AC,Penambah Freon R-410 - 0.5 - 1 PK,service_ac_section_aware,accepted,,592,919,149,False,"duration,benefit,why,indicator",False
+SRVC014,service,AC,Penambah Freon R-410 - 1.5 - 2 PK,service_ac_section_aware,accepted,,592,919,149,False,"duration,benefit,why,indicator",False
+SRVC015,service,AC,Penambah Freon R-22 - 1.5 - 2 PK,service_ac_core_only_conflict_excluded,excluded_conflict,"Konflik jenis layanan dan kapasitas: service_items menyatakan penambahan Freon R-22 1.5-2 PK, sedangkan service_detail menjelaskan pengisian penuh 0.5-1 PK.",255,399,67,False,,False
+SRVC016,service,AC,Refill / Isi Full Freon R-22 - 1.5 - 2 PK,service_ac_section_aware,accepted,,578,950,146,False,"duration,benefit,why,indicator",False
+SRVC017,service,AC,Refill / Isi Full Freon R-32 - 0.5 - 1 PK,service_ac_section_aware,accepted,,577,949,146,False,"duration,benefit,why,indicator",False
+SRVC018,service,AC,Refill / Isi Full Freon R-32 - 1.5 - 2 PK,service_ac_section_aware,accepted,,578,950,146,False,"duration,benefit,why,indicator",False
+SRVC019,service,AC,Refill / Isi Full Freon R-410 - 0.5 - 1 PK,service_ac_section_aware,accepted,,579,952,148,False,"duration,benefit,why,indicator",False
+SRVC020,service,AC,Refill / Isi Full Freon R-410 - 1.5 - 2 PK,service_ac_section_aware,accepted,,580,953,148,False,"duration,benefit,why,indicator",False
+SRVC021,service,AC,Jasa Pasang AC Split - 0.5 - 1 PK,service_ac_section_aware,accepted,,635,1012,156,False,"duration,benefit,why,indicator",False
+SRVC022,service,AC,Jasa Pasang AC Split - 1.5 - 2 PK,service_ac_section_aware,accepted,,543,954,128,False,"duration,benefit,why",False
+SRVC023,service,AC,Jasa Pasang AC Standing,service_ac_section_aware,accepted,,477,841,113,False,"duration,benefit,why",False
+SRVC024,service,AC,Jasa Pasang AC Cassette,service_ac_section_aware,accepted,,492,883,118,False,"duration,benefit,why",False
+SRVC025,service,AC,Bongkar AC Split - 0.5 - 1 PK,service_ac_section_aware,accepted,,523,864,127,False,"duration,benefit,why",False
+SRVC026,service,AC,Bongkar AC Split - 1.5 - 2 PK,service_ac_section_aware,accepted,,523,864,127,False,"duration,benefit,why",False
+SRVC027,service,AC,Bongkar AC Standing,service_ac_section_aware,accepted,,380,664,95,False,"duration,why",False
+SRVC028,service,AC,Bongkar AC Cassette,service_ac_section_aware,accepted,,380,704,95,False,"duration,why",False
+SRVC029,service,AC,Flushing Refrigent R11,service_ac_section_aware,accepted,,488,845,113,False,"duration,benefit,why",False
+SRVC030,service,AC,Overhoul - 0.5 - 1 PK,service_ac_section_aware,accepted,,399,774,104,False,"duration,benefit",False
+SRVC031,service,AC,Overhoul - 1.5 - 2 PK,service_ac_section_aware,accepted,,399,778,104,False,"duration,benefit",False
+SRVC032,service,AC,Pengelasan Atau Shock Pipa - 0.5 - 1 PK,service_ac_section_aware,accepted,,382,686,95,False,"duration,benefit",False
+SRVC033,service,AC,Pengelasan Atau Shock Pipa - 1.5 - 2 PK,service_ac_section_aware,accepted,,382,686,95,False,"duration,benefit",False
+SRVC034,service,AC,Pengelasan Evaporator,service_ac_section_aware,accepted,,537,922,125,False,"duration,benefit,why",False
+SRVC035,service,AC,Pembobokan,service_ac_section_aware,accepted,,477,848,112,False,"duration,benefit,why",False
+SRVC036,service,AC,Vacum,service_ac_section_aware,accepted,,493,869,119,False,"duration,benefit,why",False
+SRVC037,service,AC,Thermistor,service_ac_section_aware,accepted,,507,841,118,False,"duration,benefit,why",False
+SRVC038,service,AC,Module AC - 0.5 - 1 PK,service_ac_section_aware,accepted,,538,879,128,False,"duration,benefit,why",False
+SRVC039,service,AC,Module AC - 1.5 - 2 PK,service_ac_section_aware,accepted,,538,889,128,False,"duration,benefit,why",False
+SRVC041,service,CCTV,Paket SPC - 4 Kamera Indoor,service_cctv_trimmed,accepted,,1748,1883,442,False,,True
+SRVC042,service,CCTV,Paket DAHUA - 4 Kamera Indoor,service_cctv_trimmed,accepted,,1702,1837,438,False,,True
+SRVC043,service,CCTV,Paket HIKVISION - 4 Kamera Indoor,service_cctv_trimmed,accepted,,1807,1942,477,False,,True
+SRVC045,service,CCTV,Paket SPC - 4 Kamera (2 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1683,1849,427,False,,True
+SRVC046,service,CCTV,Paket HIKVISION - 4 Kamera (2 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1690,1856,440,False,,True
+SRVC047,service,CCTV,Paket DAHUA - 4 Kamera (2 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1681,1847,435,False,,True
+SRVC048,service,CCTV,Paket SPC - 8 Kamera Indoor,service_cctv_trimmed,accepted,,1708,1861,430,False,,True
+SRVC049,service,CCTV,Paket HIKVISION - 8 Kamera Indoor,service_cctv_trimmed,accepted,,1690,1843,447,False,,True
+SRVC050,service,CCTV,Paket DAHUA - 8 Kamera Indoor,service_cctv_trimmed,accepted,,1662,1815,433,False,,True
+SRVC051,service,CCTV,Paket SPC - 8 Kamera (6 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1765,1965,438,False,,True
+SRVC052,service,CCTV,Paket HIKVISION - 8 Kamera (6 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1760,1960,453,False,,True
+SRVC053,service,CCTV,Paket DAHUA - 8 Kamera (6 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1724,1924,448,False,,True
+SRVC054,service,CCTV,Paket SPC - 12 Kamera Indoor,service_cctv_trimmed,accepted,,1695,1838,429,False,,True
+SRVC055,service,CCTV,Paket HIKVISION - 12 Kamera Indoor,service_cctv_trimmed,accepted,,1700,1843,458,False,,True
+SRVC056,service,CCTV,Paket DAHUA - 12 Kamera Indoor,service_cctv_trimmed,accepted,,1612,1755,434,False,,True
+SRVC057,service,CCTV,Paket SPC - 12 Kamera (10 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1707,1855,433,False,,True
+SRVC058,service,CCTV,Paket HIKVISION - 12 Kamera (10 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1720,1868,454,False,,True
+SRVC059,service,CCTV,Paket DAHUA - 12 Kamera (10 Indoor + 2 Outdoor),service_cctv_trimmed,accepted,,1702,1850,445,False,,True
+SRVC060,service,CCTV,Paket SPC - 16 Kamera (12 Indoor + 4 Outdoor),service_cctv_trimmed,accepted,,1755,1917,444,False,,True
+SRVC061,service,CCTV,Paket HIKVISION - 16 Kamera (12 Indoor + 4 Outdoor),service_cctv_trimmed,accepted,,1747,1909,452,False,,True
+SRVC062,service,CCTV,Paket DAHUA - 16 Kamera (12 Indoor + 4 Outdoor),service_cctv_trimmed,accepted,,1748,1910,466,False,,True
+SRVC063,service,AC,Claim Garansi,service_ac_section_aware,accepted,,119,223,36,False,,False
+SRVC064,service,AC,Capasitor 20-30 UF,service_ac_section_aware,accepted,,1280,1381,294,False,,False
+SRVC065,service,AC,Capasitor 35-40 UF,service_ac_section_aware,accepted,,1280,1381,296,False,,False
+SRVC066,service,AC,Capasitor 45-60 UF,service_ac_section_aware,accepted,,1280,1381,296,False,,False
+SRVC067,service,AC,Flushing Drain,service_ac_section_aware,accepted,,631,1088,148,False,"duration,benefit,why",False
+SRVC068,service,AC,Flaring,service_ac_section_aware,accepted,,605,1077,152,False,"duration,benefit,why",False
+SRVC069,service,AC,Capasitor Fan,service_ac_section_aware,accepted,,986,1087,223,False,,False
+SRVC070,service,AC,Bearing AC Indoor,service_ac_section_aware,accepted,,1147,1248,271,False,,False
+SRVC071,service,AC,Sensor AC,service_ac_section_aware,accepted,,1254,1355,264,False,,False
+SRVC072,service,AC,Bongkar Indoor AC 1.5 - 2 PK,service_ac_section_aware,accepted,,1605,3055,373,False,"duration,benefit,indicator",False
+SRVC073,service,AC,Bongkar Outdoor AC 1.5 - 2 PK,service_ac_section_aware,accepted,,1627,3227,377,False,"duration,benefit,why,indicator",False
+SRVC074,service,AC,"Pasang Indoor AC 1,5-2 PK",service_ac_core_only_conflict_excluded,excluded_conflict,"Konflik kapasitas: nama layanan pemasangan Indoor 1.5-2 PK, sedangkan bagian indikator service_detail menyebut 0.5-1 PK.",250,349,64,False,,False
+SRVC075,service,AC,"Pasang Outdoor AC 1,5-2 PK",service_ac_section_aware,accepted,,1546,3104,344,False,"duration,indicator",False
+SRVC076,service,AC,"Pasang Outdoor AC 0,5-1 PK",service_ac_section_aware,accepted,,1542,3100,342,False,"duration,indicator",False
+SRVC077,service,AC,"Pasang Indoor AC 0,5-1 PK",service_ac_section_aware,accepted,,1554,2879,362,False,"duration,benefit,indicator",False
+SRVC078,service,AC,"Bongkar Outdoor AC 0,5-1 PK",service_ac_section_aware,accepted,,1623,3223,375,False,"duration,benefit,why,indicator",False
+SRVC079,service,AC,"Bongkar Indoor AC 0,5-1 PK",service_ac_section_aware,accepted,,1601,3051,371,False,"duration,benefit,indicator",False
+SRVC080,service,AC,"IC AC 0,5-1 PK",service_ac_section_aware,accepted,,1204,1305,257,False,,False
+SRVC081,service,AC,"Motor Fan AC 0,5-1 PK",service_ac_section_aware,accepted,,1128,1229,254,False,,False
+SRVC082,service,AC,Instalasi Kelistrikan AC,service_ac_section_aware,accepted,,518,1001,120,False,"duration,benefit,why",False
+SRVC083,service,AC,Instalasi Pipa Refrigeran (/meter),service_ac_section_aware,accepted,,571,1076,143,False,"duration,benefit,why",False
+SRVC084,service,AC,Overload,service_ac_section_aware,accepted,,1250,1351,271,False,,False
+SRVC085,service,AC,Refill / Isi Full Freon R-22 - 0.5 - 1 PK,service_ac_section_aware,accepted,,577,949,146,False,"duration,benefit,why,indicator",False
+SRVC086,service,AC,Contactor AC,service_ac_section_aware,accepted,,1418,1519,294,False,,False
+SRVC087,service,AC,Service Swing Indoor AC,service_ac_section_aware,accepted,,785,1214,181,False,"duration,benefit,why",False
+SRVC088,service,AC,"Motor Fan AC 1,5-2 PK",service_ac_section_aware,accepted,,733,1306,167,False,duration,False
+SRVC089,service,AC,Nepel AC,service_ac_section_aware,accepted,,709,1232,165,False,"duration,benefit,why",False
+SRVC090,service,AC,Dinamo Swing Ac Indoor,service_ac_section_aware,accepted,,1087,2320,237,False,indicator,False
+SRVC091,service,AC,Pengecekan AC Cassate,service_ac_section_aware,accepted,,1018,1789,235,False,"duration,benefit,why,indicator,indicator",False
+SRVC092,service,AC,Karet Bearing AC Indoor,service_ac_section_aware,accepted,,1828,1929,442,False,,False
+SRVC093,service,AC,Instalasi Jalur Pembuangan AC,service_ac_section_aware,accepted,,151,255,42,False,,False
+SRVC094,service,AC,Service Fin Evaporator AC,service_ac_section_aware,accepted,,373,477,87,False,,False
+SRVC095,service,AC,Thermostat AC,service_ac_section_aware,accepted,,256,360,56,False,,False

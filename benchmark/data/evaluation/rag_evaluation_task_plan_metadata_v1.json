@@ -1,0 +1,60 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Task Plan v1",
+  "status": "BUILT_NOT_YET_FROZEN",
+  "task_count": 360,
+  "query_count": 40,
+  "query_method_rows": 120,
+  "source_artifacts": {
+    "evaluation_dataset": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.jsonl",
+      "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+    },
+    "evaluator_config": {
+      "file": "benchmark\\config\\rag_evaluator_config_v1.json",
+      "sha256": "60b4cd3d282f347834bd13b2c2dfc722e5a18ad8939bd3042c41b6c04bc35535"
+    },
+    "evaluator_runtime": {
+      "file": "benchmark\\config\\rag_evaluator_runtime_manifest_v1.json",
+      "sha256": "2ebcd5c1ad0770ea6d1b2b1bcaed311ca21239070fe9902db964afa308cb02ea"
+    }
+  },
+  "task_distribution": {
+    "metrics": {
+      "faithfulness": 120,
+      "answer_relevancy": 120,
+      "answer_accuracy": 120
+    },
+    "methods": {
+      "bm25": 120,
+      "e5": 120,
+      "hybrid_rrf": 120
+    },
+    "tasks_per_query": 9,
+    "tasks_per_method_metric": 40
+  },
+  "ordering_policy": {
+    "query_order": "Q001 through Q040",
+    "method_order": "Three-position deterministic rotation by query index.",
+    "metric_order": "Three-position deterministic rotation by query index and method position.",
+    "random_shuffle": false
+  },
+  "task_schema": {
+    "task_id": "Unique fixed task identifier",
+    "sequence": "Deterministic execution order",
+    "query_id": "Frozen benchmark query ID",
+    "method": "bm25, e5, or hybrid_rrf",
+    "metric": "faithfulness, answer_relevancy, or answer_accuracy",
+    "sample_sha256": "Canonical SHA256 fingerprint of source evaluation row"
+  },
+  "outputs": {
+    "jsonl": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_task_plan_v1.jsonl",
+      "sha256": "a689773c5bfedf95c7e3695ad1da77add5d2b6c7c77371fec35d7f5e76e20240"
+    },
+    "csv": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_task_plan_v1.csv",
+      "sha256": "4c457901631dacc91843732c050ab52a5bb0adb0b7e50610132d23588ef3ba3b"
+    }
+  },
+  "freeze_rule": "Do not alter task identity, task ordering, query-method-metric mapping, or source sample after final scoring begins."
+}

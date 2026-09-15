@@ -1,0 +1,9 @@
+query_id,method,category,domain,question,relevant_id,retrieved_ids,faithfulness,answer_relevancy,answer_accuracy
+Q005,bm25,exact,service_ac,Berapa biaya Jasa Pasang AC Split 1.5–2 PK?,SRVC022,"[""KDP055"", ""KDP056"", ""KDP054"", ""KDP038"", ""KDP048""]",1.0,0.9831731728106519,1.0
+Q005,hybrid_rrf,exact,service_ac,Berapa biaya Jasa Pasang AC Split 1.5–2 PK?,SRVC022,"[""KDP056"", ""KDP054"", ""KDP055"", ""SRVC074"", ""KDP038""]",1.0,0.9831731728106519,1.0
+Q019,e5,semantic,cctv,Saya ingin sistem 4 kamera indoor yang tetap menghasilkan gambar jelas pada kondisi pencahayaan kontras dan mudah dipantau dari ponsel.,SRVC043,"[""SRVC042"", ""SRVC041"", ""SRVC047"", ""SRVC045"", ""SRVC050""]",0.5,0.0,0.0
+Q026,bm25,multi_constraint,service_ac,"Saya hanya ingin memasang unit indoor AC Split kapasitas 1.5–2 PK, bukan unit outdoor. Layanan apa yang sesuai?",SRVC074,"[""SRVC073"", ""SRVC078"", ""SRVC075"", ""SRVC072"", ""SRVC026""]",1.0,0.0,0.0
+Q026,hybrid_rrf,multi_constraint,service_ac,"Saya hanya ingin memasang unit indoor AC Split kapasitas 1.5–2 PK, bukan unit outdoor. Layanan apa yang sesuai?",SRVC074,"[""SRVC075"", ""SRVC076"", ""SRVC072"", ""SRVC073"", ""SRVC078""]",1.0,0.0,0.0
+Q034,bm25,fine_grained,service_ac,"Saya hanya ingin menambah Freon R-22 untuk AC 2 PK karena freonnya berkurang, bukan melakukan refill atau isi penuh.",SRVC015,"[""SRVC016"", ""SRVC085"", ""SRVC018"", ""SRVC020"", ""SRVC017""]",0.0,0.0,0.0
+Q034,e5,fine_grained,service_ac,"Saya hanya ingin menambah Freon R-22 untuk AC 2 PK karena freonnya berkurang, bukan melakukan refill atau isi penuh.",SRVC015,"[""SRVC016"", ""SRVC085"", ""SRVC009"", ""SRVC018"", ""SRVC017""]",1.0,0.0,0.0
+Q034,hybrid_rrf,fine_grained,service_ac,"Saya hanya ingin menambah Freon R-22 untuk AC 2 PK karena freonnya berkurang, bukan melakukan refill atau isi penuh.",SRVC015,"[""SRVC016"", ""SRVC085"", ""SRVC018"", ""SRVC009"", ""SRVC017""]",1.0,0.0,0.0

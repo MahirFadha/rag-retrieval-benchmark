@@ -1,0 +1,30 @@
+{
+  "analysis_policy": {
+    "alpha": 0.05,
+    "effect_size_mrr": "Matched-pairs rank-biserial",
+    "hit_at_k_omnibus": "Cochran Q",
+    "hit_at_k_pairwise": "Exact McNemar + Holm",
+    "mrr_at5_omnibus": "Friedman",
+    "mrr_at5_pairwise": "Wilcoxon + Holm"
+  },
+  "artifact": "Aire Optima Retrieval Statistical Analysis v1",
+  "environment": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "freeze_rule": "Do not modify these retrieval statistical outputs after freeze.",
+  "outputs": {
+    "cochran_csv": "1a3a19f68619e9f423febaf088c65424dd93d7ba775467bf695751d23a01bddb",
+    "mcnemar_csv": "d623ad1f25bf5c6559700927e3befdb45a080d48751fd371b2b7ab8b871fe536",
+    "mrr_friedman_csv": "df6c7ed19b6a58912369f52ed3596f8b9be28870dfce7cc873eef08e39df3470",
+    "mrr_wilcoxon_csv": "1c1d636b19b95bed5d4599acc8adbe59cb5a20c83f6b3080a10ba0b0e3b7813c",
+    "overall_csv": "bf9f28ac883bace74f95f4baae46558e394a38dba7aff013e91edf35d97da8ac",
+    "summary_json": "425537d4561b35dfaa1b4667761aae3a2d61d3ffd3de2d075c94c40f46e01dc9"
+  },
+  "source": {
+    "master_csv": "cbfccaeadbb72ce549cedcac154e93e3cabda64a761275cf945259363901c4cb",
+    "master_jsonl": "211936a8cbfe06e1f1b658a745371599f0362c8da5f80344c1ade4f695e95280",
+    "master_manifest": "e6eed1b98ac9b03baad57072bb184eeddf0f0d8d4b63fe535b1af8b08bf4a52d"
+  },
+  "status": "FROZEN"
+}

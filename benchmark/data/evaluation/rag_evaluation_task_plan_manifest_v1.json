@@ -1,0 +1,56 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Task Plan v1",
+  "status": "FROZEN",
+  "task_plan": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_task_plan_v1.jsonl",
+    "sha256": "a689773c5bfedf95c7e3695ad1da77add5d2b6c7c77371fec35d7f5e76e20240",
+    "task_count": 360,
+    "unique_task_ids": 360,
+    "unique_query_method_metric": 360
+  },
+  "task_plan_metadata": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_task_plan_metadata_v1.json",
+    "sha256": "57c5e1dade35d8f8f07a142cc2463ed88077397b8cc72e7cdb4058dc5e769c09"
+  },
+  "source_artifacts": {
+    "evaluation_dataset": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.jsonl",
+      "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+    },
+    "evaluator_config": {
+      "file": "benchmark\\config\\rag_evaluator_config_v1.json",
+      "sha256": "60b4cd3d282f347834bd13b2c2dfc722e5a18ad8939bd3042c41b6c04bc35535"
+    },
+    "evaluator_runtime": {
+      "file": "benchmark\\config\\rag_evaluator_runtime_manifest_v1.json",
+      "sha256": "2ebcd5c1ad0770ea6d1b2b1bcaed311ca21239070fe9902db964afa308cb02ea"
+    }
+  },
+  "validation": {
+    "task_count": 360,
+    "unique_tasks": 360,
+    "unique_triples": 360,
+    "invalid_sample_hashes": 0,
+    "ordering_errors": 0,
+    "method_counts": {
+      "bm25": 120,
+      "e5": 120,
+      "hybrid_rrf": 120
+    },
+    "metric_counts": {
+      "faithfulness": 120,
+      "answer_relevancy": 120,
+      "answer_accuracy": 120
+    },
+    "tasks_per_query": 9,
+    "tasks_per_method_metric": 40
+  },
+  "ordering_policy": {
+    "query_order": "Q001-Q040",
+    "method_rotation": "Deterministic three-position rotation by query index.",
+    "metric_rotation": "Deterministic three-position rotation by query index and method position.",
+    "randomized": false
+  },
+  "execution_rule": "Final evaluator must execute only tasks defined in this frozen task plan. Completed successful tasks must not be re-scored during resume.",
+  "freeze_rule": "Do not alter task IDs, sequence, query ID, method, metric, sample fingerprint, or ordering after final evaluation begins."
+}

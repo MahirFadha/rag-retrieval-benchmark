@@ -1,0 +1,134 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Scores v1",
+  "status": "FROZEN",
+  "primary_result": {
+    "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_v1.jsonl",
+    "sha256": "0d66e699ec1f419c132850b13d935b9e1498a4626235671a6c11667e37ea400b",
+    "records": 360
+  },
+  "tabular_export": {
+    "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_v1.csv",
+    "sha256": "bee69cbba195292c2ef7d82aca7bed5302ea97a75d6e893fd11db939629dc8b3",
+    "records": 360
+  },
+  "summary": {
+    "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_summary_v1.json",
+    "sha256": "6153d8be5744bdfaff75652483888276cc8043f435c312766952bdd06656c1dc"
+  },
+  "execution_checkpoint": {
+    "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_v1.checkpoint.json",
+    "sha256": "f8e0e02f3d19baaf48a3a3a204d707ac707fa14557ce20c16ddaa47c72b462f1",
+    "status": "COMPLETE",
+    "successful_tasks": 360,
+    "technical_error_attempts": 75
+  },
+  "source_artifacts": {
+    "evaluation_dataset": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.jsonl",
+      "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+    },
+    "evaluator_config": {
+      "file": "benchmark\\config\\rag_evaluator_config_v1.json",
+      "sha256": "60b4cd3d282f347834bd13b2c2dfc722e5a18ad8939bd3042c41b6c04bc35535"
+    },
+    "evaluator_runtime": {
+      "file": "benchmark\\config\\rag_evaluator_runtime_manifest_v1.json",
+      "sha256": "2ebcd5c1ad0770ea6d1b2b1bcaed311ca21239070fe9902db964afa308cb02ea"
+    },
+    "task_plan": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_task_plan_v1.jsonl",
+      "sha256": "a689773c5bfedf95c7e3695ad1da77add5d2b6c7c77371fec35d7f5e76e20240"
+    },
+    "task_plan_manifest": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_task_plan_manifest_v1.json",
+      "sha256": "08ad5cb1c6e7e13ceef9f29776757bcfda983583d3b4bab9a0d03e5391ef512f"
+    }
+  },
+  "validation": {
+    "result_rows": 360,
+    "unique_task_ids": 360,
+    "unique_query_method_metric": 360,
+    "unique_sequences": 360,
+    "invalid_scores": 0,
+    "task_mismatches": 0,
+    "sample_hash_mismatches": 0,
+    "ordering_errors": 0,
+    "checkpoint_jsonl_match": true,
+    "csv_jsonl_match": true,
+    "method_counts": {
+      "bm25": 120,
+      "e5": 120,
+      "hybrid_rrf": 120
+    },
+    "metric_counts": {
+      "faithfulness": 120,
+      "answer_relevancy": 120,
+      "answer_accuracy": 120
+    },
+    "technical_error_attempts": 75
+  },
+  "aggregates": {
+    "bm25": {
+      "faithfulness": {
+        "count": 40,
+        "mean": 0.9379734848484848,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 40,
+        "mean": 0.8417679685330489,
+        "min": 0.0,
+        "max": 0.9999999999999994
+      },
+      "answer_accuracy": {
+        "count": 40,
+        "mean": 0.78125,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "e5": {
+      "faithfulness": {
+        "count": 40,
+        "mean": 0.9666747835497835,
+        "min": 0.5,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 40,
+        "mean": 0.8446103310812353,
+        "min": 0.0,
+        "max": 0.9989860973008252
+      },
+      "answer_accuracy": {
+        "count": 40,
+        "mean": 0.79375,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "hybrid_rrf": {
+      "faithfulness": {
+        "count": 40,
+        "mean": 0.9647005772005771,
+        "min": 0.75,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 40,
+        "mean": 0.8450653356164635,
+        "min": 0.0,
+        "max": 0.9989860973008252
+      },
+      "answer_accuracy": {
+        "count": 40,
+        "mean": 0.79375,
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  },
+  "interpretation_policy": "The 75 technical error attempts are execution failures that produced no accepted final score. Every frozen task has exactly one valid accepted score in the primary result artifact. Technical retry history is execution provenance and is not counted as evaluation observations.",
+  "freeze_rule": "Do not regenerate, replace, retry, remove, or modify any accepted task score after this manifest is created. Subsequent statistical analysis must use the frozen primary JSONL."
+}

@@ -1,0 +1,10 @@
+metric,method,n,spearman_rho,p_raw,constant_input,p_holm,significant_raw,significant_holm
+faithfulness,bm25,37,-0.039102321456031694,0.8182671784972814,False,0.8182671784972814,False,False
+faithfulness,e5,38,0.3147530326523213,0.05426809018036653,False,0.16280427054109958,False,False
+faithfulness,hybrid_rrf,37,-0.16509799768271238,0.32881369313402553,False,0.6576273862680511,False,False
+answer_relevancy,bm25,37,-0.08866618951454609,0.6017721395742746,False,1.0,False,False
+answer_relevancy,e5,38,0.029468917916040525,0.8605859874004285,False,1.0,False,False
+answer_relevancy,hybrid_rrf,37,-0.18805248797492588,0.265022753023694,False,0.795068259071082,False,False
+answer_accuracy,bm25,37,-0.11682108755232262,0.4910945964956265,False,1.0,False,False
+answer_accuracy,e5,38,-0.12636890745939325,0.44964532209466385,False,1.0,False,False
+answer_accuracy,hybrid_rrf,37,-0.0716116936104173,0.6736180696218895,False,1.0,False,False

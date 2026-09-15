@@ -1,0 +1,21 @@
+{
+  "experiment_name": "Aire Optima RAG Generation v2",
+  "provider": "Google Gemini",
+  "model": "gemini-3.6-flash",
+  "thinking_level": "low",
+  "max_output_tokens": 2048,
+  "candidate_count": 1,
+  "temperature": null,
+  "top_p": null,
+  "top_k": null,
+  "rag_top_k": 5,
+  "conversation_history": false,
+  "external_tools": false,
+  "web_search": false,
+  "ground_truth_available_to_generator": false,
+  "retrieval_scores_available_to_generator": false,
+  "context_source": "context_text",
+  "context_order": "retrieval_rank",
+  "output_language": "id",
+  "expected_inputs": 120
+}

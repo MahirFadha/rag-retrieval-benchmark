@@ -1,0 +1,102 @@
+{
+  "artifact": "Aire Optima RAG Master Analysis v1",
+  "status": "FROZEN",
+  "description": "Deterministic 120-row analytical table joining the frozen 120 query-method RAG evaluation dataset with the frozen 360 RAG metric scores. One row represents one query-method pair.",
+  "row_count": 120,
+  "query_count": 40,
+  "methods": [
+    "bm25",
+    "e5",
+    "hybrid_rrf"
+  ],
+  "metrics": [
+    "faithfulness",
+    "answer_relevancy",
+    "answer_accuracy"
+  ],
+  "sources": {
+    "evaluation_dataset": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.jsonl",
+      "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+    },
+    "rag_scores": {
+      "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_v1.jsonl",
+      "sha256": "0d66e699ec1f419c132850b13d935b9e1498a4626235671a6c11667e37ea400b"
+    },
+    "rag_scores_manifest": {
+      "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_manifest_v1.json",
+      "sha256": "c8d5827e72c898c54df97d15baaec710310dd60433857308179908580595de91"
+    }
+  },
+  "outputs": {
+    "jsonl": {
+      "file": "benchmark\\results\\analysis\\rag_master_analysis_v1.jsonl",
+      "sha256": "211936a8cbfe06e1f1b658a745371599f0362c8da5f80344c1ade4f695e95280"
+    },
+    "csv": {
+      "file": "benchmark\\results\\analysis\\rag_master_analysis_v1.csv",
+      "sha256": "cbfccaeadbb72ce549cedcac154e93e3cabda64a761275cf945259363901c4cb"
+    }
+  },
+  "distribution": {
+    "method_counts": {
+      "bm25": 40,
+      "e5": 40,
+      "hybrid_rrf": 40
+    },
+    "category_counts": {
+      "exact": 30,
+      "semantic": 30,
+      "multi_constraint": 30,
+      "fine_grained": 30
+    },
+    "domain_counts": {
+      "product_ac": 36,
+      "service_ac": 48,
+      "cctv": 36
+    }
+  },
+  "retrieval_audit": {
+    "hit_at1_count": {
+      "bm25": 31,
+      "e5": 26,
+      "hybrid_rrf": 29
+    },
+    "hit_at3_count": {
+      "bm25": 35,
+      "e5": 36,
+      "hybrid_rrf": 36
+    },
+    "hit_at5_count": {
+      "bm25": 37,
+      "e5": 38,
+      "hybrid_rrf": 37
+    }
+  },
+  "rag_metric_means": {
+    "bm25": {
+      "faithfulness": 0.9379734848484848,
+      "answer_relevancy": 0.8417679685330489,
+      "answer_accuracy": 0.78125
+    },
+    "e5": {
+      "faithfulness": 0.9666747835497835,
+      "answer_relevancy": 0.8446103310812353,
+      "answer_accuracy": 0.79375
+    },
+    "hybrid_rrf": {
+      "faithfulness": 0.9647005772005771,
+      "answer_relevancy": 0.8450653356164635,
+      "answer_accuracy": 0.79375
+    }
+  },
+  "derivation_rules": {
+    "target_rank_top5": "1-indexed position of relevant_id inside retrieved_ids; null when absent from Top-5.",
+    "target_in_top1": "True only when target_rank_top5 == 1.",
+    "target_in_top3": "True when target_rank_top5 is between 1 and 3.",
+    "target_in_top5": "True when relevant_id occurs in retrieved_ids.",
+    "reciprocal_rank_at5": "1 / target_rank_top5 when relevant document occurs in Top-5; otherwise 0.",
+    "hit_recall_equivalence": "Because each query has exactly one binary relevant document, Hit@K and Recall@K are numerically identical."
+  },
+  "freeze_rule": "Do not modify this master artifact after creation. All downstream statistical analyses must read this frozen JSONL."
+}

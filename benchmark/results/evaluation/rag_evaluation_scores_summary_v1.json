@@ -1,0 +1,160 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Scores v1",
+  "status": "COMPLETE_NOT_YET_FROZEN",
+  "task_count": 360,
+  "source_hashes": {
+    "evaluation_dataset": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd",
+    "evaluator_config": "60b4cd3d282f347834bd13b2c2dfc722e5a18ad8939bd3042c41b6c04bc35535",
+    "evaluator_runtime": "2ebcd5c1ad0770ea6d1b2b1bcaed311ca21239070fe9902db964afa308cb02ea",
+    "task_plan": "a689773c5bfedf95c7e3695ad1da77add5d2b6c7c77371fec35d7f5e76e20240",
+    "task_plan_manifest": "08ad5cb1c6e7e13ceef9f29776757bcfda983583d3b4bab9a0d03e5391ef512f"
+  },
+  "aggregates": {
+    "bm25": {
+      "faithfulness": {
+        "count": 40,
+        "mean": 0.9379734848484848,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 40,
+        "mean": 0.8417679685330489,
+        "min": 0.0,
+        "max": 0.9999999999999994
+      },
+      "answer_accuracy": {
+        "count": 40,
+        "mean": 0.78125,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "e5": {
+      "faithfulness": {
+        "count": 40,
+        "mean": 0.9666747835497835,
+        "min": 0.5,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 40,
+        "mean": 0.8446103310812353,
+        "min": 0.0,
+        "max": 0.9989860973008252
+      },
+      "answer_accuracy": {
+        "count": 40,
+        "mean": 0.79375,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "hybrid_rrf": {
+      "faithfulness": {
+        "count": 40,
+        "mean": 0.9647005772005771,
+        "min": 0.75,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 40,
+        "mean": 0.8450653356164635,
+        "min": 0.0,
+        "max": 0.9989860973008252
+      },
+      "answer_accuracy": {
+        "count": 40,
+        "mean": 0.79375,
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  },
+  "technical_error_attempts": 75,
+  "key_usage_success": {
+    "GEMINI_API_KEY": 3,
+    "GEMINI_API_KEY_2": 3,
+    "GEMINI_API_KEY_3": 3,
+    "GEMINI_API_KEY_4": 2,
+    "GEMINI_API_KEY_5": 4,
+    "GEMINI_API_KEY_6": 3,
+    "GEMINI_API_KEY_7": 3,
+    "GEMINI_API_KEY_8": 3,
+    "GEMINI_API_KEY_9": 2,
+    "GEMINI_API_KEY_21": 3,
+    "GEMINI_API_KEY_22": 3,
+    "GEMINI_API_KEY_23": 4,
+    "GEMINI_API_KEY_24": 3,
+    "GEMINI_API_KEY_25": 3,
+    "GEMINI_API_KEY_26": 3,
+    "GEMINI_API_KEY_27": 3,
+    "GEMINI_API_KEY_28": 3,
+    "GEMINI_API_KEY_29": 3,
+    "GEMINI_API_KEY_30": 3,
+    "GEMINI_API_KEY_31": 3,
+    "GEMINI_API_KEY_32": 3,
+    "GEMINI_API_KEY_33": 3,
+    "GEMINI_API_KEY_34": 2,
+    "GEMINI_API_KEY_35": 4,
+    "GEMINI_API_KEY_36": 3,
+    "GEMINI_API_KEY_37": 3,
+    "GEMINI_API_KEY_38": 3,
+    "GEMINI_API_KEY_39": 3,
+    "GEMINI_API_KEY_40": 3,
+    "GEMINI_API_KEY_51": 7,
+    "GEMINI_API_KEY_52": 6,
+    "GEMINI_API_KEY_53": 6,
+    "GEMINI_API_KEY_54": 6,
+    "GEMINI_API_KEY_55": 3,
+    "GEMINI_API_KEY_56": 2,
+    "GEMINI_API_KEY_57": 4,
+    "GEMINI_API_KEY_10": 3,
+    "GEMINI_API_KEY_TIER1": 236
+  },
+  "key_usage_error": {
+    "GEMINI_API_KEY_10": 1,
+    "GEMINI_API_KEY_11": 1,
+    "GEMINI_API_KEY_12": 1,
+    "GEMINI_API_KEY_13": 1,
+    "GEMINI_API_KEY_14": 1,
+    "GEMINI_API_KEY_15": 1,
+    "GEMINI_API_KEY_16": 1,
+    "GEMINI_API_KEY_17": 1,
+    "GEMINI_API_KEY_18": 1,
+    "GEMINI_API_KEY_19": 1,
+    "GEMINI_API_KEY_20": 1,
+    "GEMINI_API_KEY_21": 2,
+    "GEMINI_API_KEY_41": 3,
+    "GEMINI_API_KEY_42": 5,
+    "GEMINI_API_KEY_43": 3,
+    "GEMINI_API_KEY_44": 3,
+    "GEMINI_API_KEY_45": 3,
+    "GEMINI_API_KEY_46": 3,
+    "GEMINI_API_KEY_47": 3,
+    "GEMINI_API_KEY_48": 3,
+    "GEMINI_API_KEY_49": 3,
+    "GEMINI_API_KEY_50": 3,
+    "GEMINI_API_KEY_51": 9,
+    "GEMINI_API_KEY_52": 6,
+    "GEMINI_API_KEY_9": 1,
+    "GEMINI_API_KEY_53": 5,
+    "GEMINI_API_KEY_54": 2,
+    "GEMINI_API_KEY_55": 2,
+    "GEMINI_API_KEY_56": 2,
+    "GEMINI_API_KEY_4": 1,
+    "GEMINI_API_KEY_22": 1,
+    "GEMINI_API_KEY_34": 1
+  },
+  "outputs": {
+    "jsonl": {
+      "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_v1.jsonl",
+      "sha256": "0d66e699ec1f419c132850b13d935b9e1498a4626235671a6c11667e37ea400b"
+    },
+    "csv": {
+      "file": "benchmark\\results\\evaluation\\rag_evaluation_scores_v1.csv",
+      "sha256": "bee69cbba195292c2ef7d82aca7bed5302ea97a75d6e893fd11db939629dc8b3"
+    }
+  },
+  "completed_at_utc": "2026-09-05T19:57:33.636338+00:00"
+}

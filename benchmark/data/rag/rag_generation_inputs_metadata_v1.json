@@ -1,0 +1,45 @@
+{
+  "artifact": "Aire Optima RAG Generation Inputs v1",
+  "status": "BUILT_NOT_YET_FROZEN",
+  "rag_input_file": "benchmark\\data\\rag\\rag_generation_inputs_v1.jsonl",
+  "rag_input_sha256": "742937ac9af494eb41fb0662dcdce02a2cf30f06c1eb02a57c98d37bc7067a93",
+  "source_artifacts": {
+    "corpus_file": "benchmark\\data\\canonical\\aire_catalog_final_v1.jsonl",
+    "corpus_sha256": "7e5c041917e43b32298ecf7dc02b571e11ffe6cf5c77b52dcf8b531d6b4609be",
+    "query_file": "benchmark\\data\\canonical\\aire_benchmark_queries_v1.jsonl",
+    "query_sha256": "dfbf771a3f7dc00d465be4e2605f9ccae7b0e2147933954d367cfcd0751bfb0d",
+    "retrieval_rankings_file": "benchmark\\results\\retrieval_rankings_v1.csv"
+  },
+  "configuration": {
+    "query_count": 40,
+    "methods": [
+      "bm25",
+      "e5",
+      "hybrid_rrf"
+    ],
+    "top_k": 5,
+    "expected_generation_inputs": 120,
+    "context_source": "context_text",
+    "context_order": "retrieval_rank",
+    "ground_truth_in_generation_input": false
+  },
+  "audit_summary": {
+    "generation_input_count": 120,
+    "method_counts": {
+      "bm25": 40,
+      "e5": 40,
+      "hybrid_rrf": 40
+    },
+    "target_in_top5_counts": {
+      "bm25": 37,
+      "e5": 38,
+      "hybrid_rrf": 37
+    },
+    "min_context_chars": 2780,
+    "max_context_chars": 15709,
+    "mean_context_chars": 7562.716666666666,
+    "min_context_words": 412,
+    "max_context_words": 2158,
+    "mean_context_words": 1077.7666666666667
+  }
+}

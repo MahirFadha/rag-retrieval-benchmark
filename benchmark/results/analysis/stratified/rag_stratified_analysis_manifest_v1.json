@@ -1,0 +1,50 @@
+{
+  "analysis": {
+    "alpha": 0.05,
+    "categories": [
+      "exact",
+      "semantic",
+      "multi_constraint",
+      "fine_grained"
+    ],
+    "domains": [
+      "product_ac",
+      "service_ac",
+      "cctv"
+    ],
+    "methods": [
+      "bm25",
+      "e5",
+      "hybrid_rrf"
+    ],
+    "rag_metrics": [
+      "faithfulness",
+      "answer_relevancy",
+      "answer_accuracy"
+    ],
+    "rank_analysis": "Spearman correlation, Top-5 hits only",
+    "target_top5_analysis": "descriptive"
+  },
+  "artifact": "Aire Optima RAG Stratified Analysis v1",
+  "environment": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "freeze_rule": "All downstream interpretation and case analysis must use these frozen outputs or the frozen master table.",
+  "outputs": {
+    "category_friedman_csv": "aa5c6ed5e91ad3e45ffb38ede0aba05fcb510ada89370205547f7df4cdfa2692",
+    "category_summary_csv": "70505b0c9b9c3360e4ff545d249d479ff3235b39d4ac30d748e60cf7b31225ab",
+    "domain_friedman_csv": "e228285129fa1150a8cfc651785f40b2005820cd676bdc9d9e38274cf4440065",
+    "domain_summary_csv": "5318338fcf32ad0b1d8f5e62f7aea766323e86f3bf5f4575d6ceb66ed550427f",
+    "rank_profile_csv": "71878538029dbdf86426232872b935476fb5dba000319ba2e410d842993d21fc",
+    "rank_spearman_csv": "e32adad4818a560280f170308254a330188f4563fc60dfabf3058eb8ac7382da",
+    "summary_json": "8b6cbf4dcd4a43ea379e9980d0b135556fdf5f8d5d008d22c7dfc6ec96e53089",
+    "target_top5_csv": "820b737f276a75ef97b5c5486bab280c1e5aa07dccec45a7f2127f968fe970c7"
+  },
+  "source": {
+    "master_csv_sha256": "cbfccaeadbb72ce549cedcac154e93e3cabda64a761275cf945259363901c4cb",
+    "master_jsonl_sha256": "211936a8cbfe06e1f1b658a745371599f0362c8da5f80344c1ade4f695e95280",
+    "master_manifest_sha256": "e6eed1b98ac9b03baad57072bb184eeddf0f0d8d4b63fe535b1af8b08bf4a52d"
+  },
+  "status": "FROZEN"
+}

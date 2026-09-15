@@ -1,0 +1,26 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Reference Candidate v1",
+  "status": "BUILT_NOT_YET_FROZEN",
+  "record_count": 40,
+  "source_artifacts": {
+    "corpus": {
+      "file": "benchmark\\data\\canonical\\aire_catalog_final_v1.jsonl",
+      "sha256": "7e5c041917e43b32298ecf7dc02b571e11ffe6cf5c77b52dcf8b531d6b4609be"
+    },
+    "query_set": {
+      "file": "benchmark\\data\\canonical\\aire_benchmark_queries_v1.jsonl",
+      "sha256": "dfbf771a3f7dc00d465be4e2605f9ccae7b0e2147933954d367cfcd0751bfb0d"
+    }
+  },
+  "reference_policy": {
+    "relevant_documents_per_query": 1,
+    "reference_context_source": "frozen canonical context_text",
+    "reference_answer_status": "EMPTY_PENDING_MANUAL_CURATION",
+    "generated_answers_used": false,
+    "retrieval_method_outputs_used": false
+  },
+  "candidate_jsonl": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_reference_candidate_v1.jsonl",
+    "sha256": "16a8fcce9599bc7d57aab37f975c5a3224f812bc7f939d4c44f778e344ef10cc"
+  }
+}

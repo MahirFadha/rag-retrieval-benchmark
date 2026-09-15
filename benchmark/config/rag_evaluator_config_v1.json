@@ -1,0 +1,93 @@
+{
+  "experiment_name": "Aire Optima RAG Evaluation v1",
+
+  "framework": "ragas",
+  "framework_version": "0.4.3",
+  "evaluation_type": "single_turn_rag",
+
+  "evaluation_dataset": {
+    "file": "benchmark/data/evaluation/rag_evaluation_dataset_v1.jsonl",
+    "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd",
+    "records": 120,
+    "queries": 40,
+    "methods": [
+      "bm25",
+      "e5",
+      "hybrid_rrf"
+    ]
+  },
+
+    "judge": {
+    "provider": "google",
+    "model": "gemini-3.7-flash",
+    "model_alias_latest": false,
+    "thinking_control": "provider_default",
+    "documented_default_thinking_level": "medium"
+    },
+
+  "embedding": {
+    "provider": "google",
+    "model": "gemini-embedding-001",
+    "purpose": "answer_relevancy_only"
+  },
+
+  "metrics": {
+    "faithfulness": {
+      "enabled": true,
+      "primary": true,
+      "inputs": [
+        "user_input",
+        "response",
+        "retrieved_contexts"
+      ]
+    },
+
+    "answer_relevancy": {
+      "enabled": true,
+      "primary": true,
+      "inputs": [
+        "user_input",
+        "response"
+      ],
+      "strictness": 3
+    },
+
+    "answer_accuracy": {
+      "enabled": true,
+      "primary": true,
+      "inputs": [
+        "user_input",
+        "response",
+        "reference"
+      ]
+    },
+
+    "context_precision": {
+      "enabled": false,
+      "reason": "Retrieval relevance is evaluated deterministically using frozen document-level qrels and Hit/Recall/MRR metrics."
+    },
+
+    "context_recall": {
+      "enabled": false,
+      "reason": "With exactly one relevant document per query, ID-based context recall duplicates Recall@K/Hit@K."
+    }
+  },
+
+  "evaluation_policy": {
+    "generated_answers_regenerated": false,
+    "references_modified": false,
+    "retrieved_contexts_modified": false,
+    "evaluation_dataset_modified": false,
+    "quality_retry": false,
+    "technical_retry_only": true
+  },
+
+  "output_policy": {
+    "save_per_sample_scores": true,
+    "save_raw_metric_outputs": true,
+    "save_method_aggregates": true,
+    "save_category_aggregates": true,
+    "save_domain_aggregates": true,
+    "save_target_in_top5_stratification": true
+  }
+}

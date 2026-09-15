@@ -1,0 +1,27 @@
+{
+  "artifact": "Aire Optima RAG Generation Inputs v1",
+  "status": "FROZEN",
+  "rag_input_file": "benchmark\\data\\rag\\rag_generation_inputs_v1.jsonl",
+  "rag_input_sha256": "742937ac9af494eb41fb0662dcdce02a2cf30f06c1eb02a57c98d37bc7067a93",
+  "source_artifacts": {
+    "corpus_sha256": "7e5c041917e43b32298ecf7dc02b571e11ffe6cf5c77b52dcf8b531d6b4609be",
+    "query_sha256": "dfbf771a3f7dc00d465be4e2605f9ccae7b0e2147933954d367cfcd0751bfb0d",
+    "retrieval_rankings_sha256": "003cb25f647fa5299d5d3d1d10820ea8871244bc3e968072e3edf12c5024eb05"
+  },
+  "configuration": {
+    "query_count": 40,
+    "methods": [
+      "bm25",
+      "e5",
+      "hybrid_rrf"
+    ],
+    "inputs_per_method": 40,
+    "top_k": 5,
+    "generation_input_count": 120,
+    "total_context_count": 600,
+    "context_source": "context_text",
+    "context_order": "retrieval_rank",
+    "ground_truth_leakage": false
+  },
+  "freeze_rule": "Do not modify RAG generation inputs after generator evaluation begins."
+}

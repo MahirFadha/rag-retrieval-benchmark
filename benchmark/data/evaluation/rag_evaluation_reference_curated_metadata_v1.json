@@ -1,0 +1,29 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Reference Curated v1",
+  "status": "CURATED_NOT_YET_FROZEN",
+  "record_count": 40,
+  "source_candidate": {
+    "file": "rag_evaluation_reference_candidate_v1.jsonl",
+    "sha256": "16a8fcce9599bc7d57aab37f975c5a3224f812bc7f939d4c44f778e344ef10cc"
+  },
+  "curation_policy": {
+    "basis": [
+      "question",
+      "relevant_id",
+      "reference_context"
+    ],
+    "generated_answers_used": false,
+    "retrieval_rankings_used": false,
+    "principle": "minimal sufficient answer; all factual content grounded in reference_context"
+  },
+  "outputs": {
+    "jsonl": {
+      "file": "rag_evaluation_reference_curated_v1.jsonl",
+      "sha256": "5a2fa623cba071ca2fa70e1ed1a3930e9fc084969a300f05d6148269673bb0ba"
+    },
+    "csv": {
+      "file": "rag_evaluation_reference_curated_v1.csv",
+      "sha256": "a22a06a2c4a06b931554285ba03bb09bf89b5f4116745bb2c2e2494e9b62989f"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "artifact": "Aire Optima RAG Generated Answers v2",
+  "status": "COMPLETE",
+  "generation_count": 120,
+  "rag_input_sha256": "742937ac9af494eb41fb0662dcdce02a2cf30f06c1eb02a57c98d37bc7067a93",
+  "generated_answers_file": "benchmark\\results\\rag\\rag_generated_answers_v2.jsonl",
+  "generated_answers_sha256": "4fec3abd2320c48ecf0d654e830ec6b2effba83a84808fb92970b85dbbdb0af8",
+  "method_counts": {
+    "bm25": 40,
+    "e5": 40,
+    "hybrid_rrf": 40
+  },
+  "model_versions": {
+    "gemini-3.6-flash": 120
+  },
+  "api_key_usage": {
+    "GEMINI_API_KEY": 5,
+    "GEMINI_API_KEY_2": 4,
+    "GEMINI_API_KEY_3": 5,
+    "GEMINI_API_KEY_4": 10,
+    "GEMINI_API_KEY_5": 10,
+    "GEMINI_API_KEY_6": 10,
+    "GEMINI_API_KEY_7": 10,
+    "GEMINI_API_KEY_8": 10,
+    "GEMINI_API_KEY_9": 11,
+    "GEMINI_API_KEY_10": 11,
+    "GEMINI_API_KEY_21": 4,
+    "GEMINI_API_KEY_22": 3,
+    "GEMINI_API_KEY_23": 4,
+    "GEMINI_API_KEY_24": 3,
+    "GEMINI_API_KEY_25": 4,
+    "GEMINI_API_KEY_26": 4,
+    "GEMINI_API_KEY_27": 3,
+    "GEMINI_API_KEY_28": 3,
+    "GEMINI_API_KEY_29": 3,
+    "GEMINI_API_KEY_30": 3
+  },
+  "rate_limit": {
+    "strategy": "per_project_sliding_window_round_robin",
+    "project_count": 29,
+    "rpm_per_project": 5,
+    "window_seconds": 62.0,
+    "safety_buffer_seconds": 0.5
+  },
+  "token_usage": {
+    "prompt_tokens": 300360,
+    "output_tokens": 17399,
+    "thoughts_tokens": 20366,
+    "total_tokens": 338125
+  },
+  "latency": {
+    "mean_seconds": 9.70106
+  }
+}

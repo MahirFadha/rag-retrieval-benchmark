@@ -1,0 +1,44 @@
+{
+  "artifact": "Aire Optima RAG Generated Answers v1",
+  "status": "COMPLETE",
+  "generation_count": 120,
+  "rag_input_sha256": "742937ac9af494eb41fb0662dcdce02a2cf30f06c1eb02a57c98d37bc7067a93",
+  "generated_answers_file": "benchmark\\results\\rag\\rag_generated_answers_v1.jsonl",
+  "generated_answers_sha256": "72303db5be800a78961827aad47f7a7b99806db0c6b40b663d1c27aa3dd5b36d",
+  "method_counts": {
+    "bm25": 40,
+    "e5": 40,
+    "hybrid_rrf": 40
+  },
+  "model_versions": {
+    "gemini-3.6-flash": 120
+  },
+  "api_key_usage": {
+    "GEMINI_API_KEY": 16,
+    "GEMINI_API_KEY_2": 16,
+    "GEMINI_API_KEY_3": 14,
+    "GEMINI_API_KEY_4": 10,
+    "GEMINI_API_KEY_5": 11,
+    "GEMINI_API_KEY_6": 11,
+    "GEMINI_API_KEY_7": 11,
+    "GEMINI_API_KEY_8": 11,
+    "GEMINI_API_KEY_9": 10,
+    "GEMINI_API_KEY_10": 10
+  },
+  "rate_limit": {
+    "strategy": "per_project_sliding_window_round_robin",
+    "project_count": 10,
+    "rpm_per_project": 5,
+    "window_seconds": 62.0,
+    "safety_buffer_seconds": 0.5
+  },
+  "token_usage": {
+    "prompt_tokens": 300360,
+    "output_tokens": 16602,
+    "thoughts_tokens": 18853,
+    "total_tokens": 335815
+  },
+  "latency": {
+    "mean_seconds": 10.3441925
+  }
+}

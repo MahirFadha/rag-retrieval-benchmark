@@ -1,0 +1,49 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Reference v1",
+  "status": "FROZEN",
+  "record_count": 40,
+  "reference_file": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_reference_v1.jsonl",
+    "sha256": "5a2fa623cba071ca2fa70e1ed1a3930e9fc084969a300f05d6148269673bb0ba"
+  },
+  "source_candidate": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_reference_candidate_v1.jsonl",
+    "sha256": "16a8fcce9599bc7d57aab37f975c5a3224f812bc7f939d4c44f778e344ef10cc"
+  },
+  "curated_source": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_reference_curated_v1.jsonl",
+    "sha256": "5a2fa623cba071ca2fa70e1ed1a3930e9fc084969a300f05d6148269673bb0ba"
+  },
+  "validation": {
+    "unique_query_ids": 40,
+    "reference_answers_nonempty": 40,
+    "immutable_field_changes": 0,
+    "category_counts": {
+      "exact": 10,
+      "semantic": 10,
+      "multi_constraint": 10,
+      "fine_grained": 10
+    },
+    "domain_counts": {
+      "product_ac": 12,
+      "service_ac": 16,
+      "cctv": 12
+    },
+    "reference_answer_word_length": {
+      "min": 6,
+      "mean": 20.6,
+      "max": 39
+    }
+  },
+  "reference_policy": {
+    "basis": [
+      "question",
+      "relevant_id",
+      "reference_context"
+    ],
+    "generated_answers_used": false,
+    "retrieval_rankings_used": false,
+    "principle": "Minimal sufficient answer; all factual content grounded in frozen reference_context."
+  },
+  "freeze_rule": "Do not modify question, relevant_id, reference_context, or reference_answer after RAG evaluation begins."
+}

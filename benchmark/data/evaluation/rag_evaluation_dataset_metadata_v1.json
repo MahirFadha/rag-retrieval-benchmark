@@ -1,0 +1,63 @@
+{
+  "artifact": "Aire Optima RAG Evaluation Dataset v1",
+  "status": "BUILT_NOT_YET_FROZEN",
+  "record_count": 120,
+  "unique_query_method_pairs": 120,
+  "source_artifacts": {
+    "rag_generation_input": {
+      "file": "benchmark\\data\\rag\\rag_generation_inputs_v1.jsonl",
+      "sha256": "742937ac9af494eb41fb0662dcdce02a2cf30f06c1eb02a57c98d37bc7067a93"
+    },
+    "generated_answers": {
+      "file": "benchmark\\results\\rag\\rag_generated_answers_v2.jsonl",
+      "sha256": "4fec3abd2320c48ecf0d654e830ec6b2effba83a84808fb92970b85dbbdb0af8"
+    },
+    "evaluation_reference": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_reference_v1.jsonl",
+      "sha256": "5a2fa623cba071ca2fa70e1ed1a3930e9fc084969a300f05d6148269673bb0ba"
+    }
+  },
+  "distribution": {
+    "methods": {
+      "bm25": 40,
+      "e5": 40,
+      "hybrid_rrf": 40
+    },
+    "categories": {
+      "exact": 30,
+      "semantic": 30,
+      "multi_constraint": 30,
+      "fine_grained": 30
+    },
+    "domains": {
+      "product_ac": 36,
+      "service_ac": 48,
+      "cctv": 36
+    }
+  },
+  "retrieval_target_top5": {
+    "bm25": 37,
+    "e5": 38,
+    "hybrid_rrf": 37
+  },
+  "evaluation_schema": {
+    "user_input": "question",
+    "response": "generated answer",
+    "retrieved_contexts": "Top-5 context_text in retrieval rank order",
+    "reference": "frozen curated reference answer"
+  },
+  "output": {
+    "jsonl": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.jsonl",
+      "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+    },
+    "csv": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.csv"
+    },
+    "audit_csv": {
+      "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_audit_v1.csv",
+      "sha256": "69d10daf6c051f99683dfdbce48eb3e0fa74a0e6396e306fc3a88180ea20d985"
+    }
+  },
+  "evaluation_rule": "Do not modify generated answers, retrieved contexts, question, or reference after this dataset is frozen."
+}

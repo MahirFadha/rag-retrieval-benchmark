@@ -1,0 +1,13 @@
+stratum,level,metric,n_queries,chi_square,df,p_raw,kendalls_w,p_holm,significant_raw,significant_holm
+category,exact,faithfulness,10,0.0,2,1.0,0.0,1.0,False,False
+category,exact,answer_relevancy,10,0.0,2,1.0,0.0,1.0,False,False
+category,exact,answer_accuracy,10,2.6666666666667047,2,0.2635971381157217,0.13333333333333525,1.0,False,False
+category,semantic,faithfulness,10,0.0,2,1.0,0.0,1.0,False,False
+category,semantic,answer_relevancy,10,2.6000000000000085,2,0.2725317930340115,0.13000000000000042,0.8175953791020345,False,False
+category,semantic,answer_accuracy,10,0.0,2,1.0,0.0,1.0,False,False
+category,multi_constraint,faithfulness,10,0.0800000000000182,2,0.9607894391523145,0.00400000000000091,1.0,False,False
+category,multi_constraint,answer_relevancy,10,0.6666666666666725,2,0.7165313105737872,0.033333333333333624,1.0,False,False
+category,multi_constraint,answer_accuracy,10,0.0,2,1.0,0.0,1.0,False,False
+category,fine_grained,faithfulness,10,2.6666666666667047,2,0.2635971381157217,0.13333333333333525,1.0,False,False
+category,fine_grained,answer_relevancy,10,4.66666666666667,2,0.09697196786440493,0.23333333333333348,0.3878878714576197,False,False
+category,fine_grained,answer_accuracy,10,0.0,2,1.0,0.0,1.0,False,False

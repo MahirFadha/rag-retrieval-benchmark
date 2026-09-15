@@ -1,0 +1,47 @@
+{
+  "artifact": "Aire Optima RAG Evaluator Runtime v1",
+  "status": "FROZEN",
+  "evaluation_dataset": {
+    "file": "benchmark\\data\\evaluation\\rag_evaluation_dataset_v1.jsonl",
+    "sha256": "fe1582a06378e9aa087551a2ee01b4c576fb14a38cdb51cc7057439a4e1b27fd"
+  },
+  "evaluator_config": {
+    "file": "benchmark\\config\\rag_evaluator_config_v1.json",
+    "sha256": "60b4cd3d282f347834bd13b2c2dfc722e5a18ad8939bd3042c41b6c04bc35535"
+  },
+  "smoke_test": {
+    "file": "benchmark\\results\\evaluation\\rag_evaluator_smoke_v1.json",
+    "sha256": "d8f5121ee7d904cbb699ccf1d917fbbd878a38b6ffb243c47585e11ca2e04422",
+    "sample": {
+      "query_id": "Q001",
+      "method": "bm25"
+    },
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9480112362007586,
+      "answer_accuracy": 0.75
+    },
+    "included_in_final_results": false
+  },
+  "python": {
+    "version": "3.13.13",
+    "implementation": "CPython"
+  },
+  "runtime_packages": {
+    "ragas": "0.4.3",
+    "google-genai": "2.21.0",
+    "instructor": "1.15.1",
+    "jsonref": "1.1.0",
+    "pydantic": "2.13.4",
+    "python-dotenv": "1.2.2"
+  },
+  "execution_architecture": {
+    "ragas_api": "metrics.collections",
+    "metric_execution": "ascore",
+    "judge_transport": "Instructor AsyncInstructor",
+    "judge_model": "gemini-3.7-flash",
+    "embedding_model": "gemini-embedding-001",
+    "embedding_transport": "GoogleEmbeddings with google.genai.Client"
+  },
+  "freeze_rule": "Do not upgrade or downgrade evaluator runtime packages after final evaluation scoring has begun."
+}

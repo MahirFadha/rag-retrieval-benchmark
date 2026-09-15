@@ -1,0 +1,38 @@
+{
+  "artifact": "Aire Optima RAG Generator Configuration v1",
+  "status": "FROZEN",
+  "system_prompt": {
+    "file": "benchmark\\config\\rag_system_prompt_v1.txt",
+    "sha256": "d9c57f250512b2c2a930d2837448d41cbb89d758d39f4a9e3926f2ddaf714c76"
+  },
+  "generator_config": {
+    "file": "benchmark\\config\\rag_generator_config_v2.json",
+    "sha256": "300d948329b8cb6ab024e96ad92cc889e48802a8d1f18ca9c2d801cc51035ba2"
+  },
+  "rag_input": {
+    "file": "benchmark\\data\\rag\\rag_generation_inputs_v1.jsonl",
+    "sha256": "742937ac9af494eb41fb0662dcdce02a2cf30f06c1eb02a57c98d37bc7067a93"
+  },
+  "generator": {
+    "experiment_name": "Aire Optima RAG Generation v2",
+    "provider": "Google Gemini",
+    "model": "gemini-3.6-flash",
+    "thinking_level": "low",
+    "max_output_tokens": 2048,
+    "candidate_count": 1,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "rag_top_k": 5,
+    "conversation_history": false,
+    "external_tools": false,
+    "web_search": false,
+    "ground_truth_available_to_generator": false,
+    "retrieval_scores_available_to_generator": false,
+    "context_source": "context_text",
+    "context_order": "retrieval_rank",
+    "output_language": "id",
+    "expected_inputs": 120
+  },
+  "freeze_rule": "Do not modify system prompt, generator configuration, or RAG generation inputs after generation begins."
+}

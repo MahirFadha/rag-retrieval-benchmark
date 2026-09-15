@@ -1,0 +1,146 @@
+﻿id,type,domain,name,has_description,has_detail,description_chars,detail_chars,package_name,bundling_service_id
+KDP001,product,AC,Sharp - 0.5 PK,True,True,84,857,,SRVC021
+KDP002,product,AC,Hisense - 0.5 PK,True,True,71,843,,SRVC021
+KDP003,product,AC,MITSUBISHI R32 - 0.5 PK,True,True,68,949,,SRVC021
+KDP004,product,AC,DAIKIN THAILAND - 0.5 PK,True,True,83,809,,SRVC021
+KDP005,product,AC,HONSHU - 0.5 PK,True,True,66,855,,SRVC021
+KDP006,product,AC,TOSHIBA - 0.5 PK,True,True,61,872,,SRVC021
+KDP007,product,AC,GREE - 0.5 PK,True,True,62,885,,SRVC021
+KDP008,product,AC,SANSUI - 0.5 PK,True,True,68,805,,SRVC021
+KDP009,product,AC,REIWA - 0.5 PK,True,True,65,762,,SRVC021
+KDP010,product,AC,POLYTRON - 0.5 PK,True,True,56,837,,SRVC021
+KDP012,product,AC,CHANGHONG - 0.5 PK,True,True,56,813,,SRVC021
+KDP013,product,AC,POLYTRON INDO - 0.5 PK,True,True,62,893,,SRVC021
+KDP014,product,AC,POLYTRON CHINA - 0.5 PK,True,True,64,827,,SRVC021
+KDP016,product,AC,AQUA - 0.5 PK,True,True,63,923,,SRVC021
+KDP017,product,AC,MIDEA - 0.5 PK,True,True,80,836,,SRVC021
+KDP018,product,AC,BEKO - 0.5 PK,True,True,61,864,,SRVC021
+KDP019,product,AC,CHANGHONG - 1 PK,True,True,54,855,,SRVC021
+KDP020,product,AC,SHARP - 1 PK,True,True,69,840,,SRVC021
+KDP021,product,AC,POLYTRON - 1 PK,True,True,81,843,,SRVC021
+KDP022,product,AC,PANASONIC - 1 PK,True,True,64,818,,SRVC021
+KDP023,product,AC,LG - 1 PK,True,True,54,819,,SRVC021
+KDP025,product,AC,AQUA - 1 PK,True,True,56,862,,SRVC021
+KDP026,product,AC,MITSHUBISHI R32 - 1 PK,True,True,69,809,,SRVC021
+KDP027,product,AC,DAIKIN THAILAND - 1 PK,True,True,73,781,,SRVC021
+KDP028,product,AC,HONSHU - 1 PK,True,True,57,778,,SRVC021
+KDP029,product,AC,GREE - 1 PK,True,True,64,877,,SRVC021
+KDP030,product,AC,SANSUI - 1 PK,True,True,56,813,,SRVC021
+KDP031,product,AC,MIDEA - 1 PK,True,True,54,824,,SRVC021
+KDP032,product,AC,CHANGHONG - 1.5 PK,True,True,63,890,,SRVC022
+KDP033,product,AC,SHARP THAILAND - 1.5 PK,True,True,63,852,,SRVC022
+KDP034,product,AC,PANASONIC - 1.5 PK,True,True,66,860,,SRVC022
+KDP035,product,AC,MITSHUBISHI R32 - 1.5 PK,True,True,74,826,,SRVC022
+KDP036,product,AC,MITSHUBISHI THAILAND - 1.5 PK,True,True,75,818,,SRVC022
+KDP037,product,AC,DAIKIN - 1.5 PK,True,True,68,768,,SRVC022
+KDP038,product,AC,HONSHU - 1.5 PK,True,True,49,827,,SRVC022
+KDP039,product,AC,GREE - 1.5 PK,True,True,59,768,,SRVC022
+KDP040,product,AC,MIDEA - 1.5 PK,True,True,69,801,,SRVC022
+KDP041,product,AC,SHARP - 2 PK,True,True,58,865,,SRVC022
+KDP042,product,AC,PANASONIC - 2 PK,True,True,62,827,,SRVC022
+KDP043,product,AC,AQUA - 2 PK,True,True,53,844,,SRVC022
+KDP044,product,AC,MITSHUBISHI THAILAND - 2 PK,True,True,74,833,,SRVC022
+KDP045,product,AC,DAIKIN THAILAND - 2 PK,True,True,75,799,,SRVC022
+KDP046,product,AC,HONSHU - 2 PK,True,True,60,828,,SRVC022
+KDP047,product,AC,GREE - 2 PK,True,True,63,925,,SRVC022
+KDP048,product,AC,MIDEA - 2 PK,True,True,56,788,,SRVC022
+KDP049,product,AC,CHANGHONG - 2 PK,True,True,61,799,,SRVC022
+KDP050,product,AC,HISENSE - 2 PK,True,True,63,881,,SRVC022
+KDP051,product,AC,PANASONIC INDO - 0.5 PK,True,False,71,0,,SRVC021
+KDP052,product,AC,SAMSUNG 0.5 PK,True,False,64,0,,SRVC021
+KDP053,product,AC,SAMSUNG - 1 PK,True,False,62,0,,SRVC021
+KDP054,product,AC,POLYTRON - 1.5 PK,True,False,65,0,,SRVC022
+KDP055,product,AC,MITSUBISHI R32 - 2 PK,True,False,66,0,,SRVC022
+KDP056,product,AC,DAIKIN 2 PK,True,False,82,0,,SRVC022
+SRVC001,service,AC,Cuci AC Split - 0.5 - 1 PK,True,True,156,1030,Cuci AC,
+SRVC002,service,AC,Cuci AC Standing - 0.5 -1 PK,True,True,155,799,Cuci AC,
+SRVC003,service,AC,Cuci AC Cassette - 0.5 -2 PK,True,True,185,788,Cuci AC,
+SRVC004,service,AC,Cuci AC Cassette - 3 - 5 PK,True,True,185,797,Cuci AC,
+SRVC005,service,AC,Cuci AC Split - 1.5 - 2 PK,True,True,156,667,Cuci AC,
+SRVC006,service,AC,Pengecekan AC - 0.5 - 1 PK,True,True,151,578,Pengecekan AC,
+SRVC007,service,AC,Cuci AC Standing - 1.5 - 2 PK,True,True,155,590,Cuci AC,
+SRVC008,service,AC,Pengecekan AC - 1.5 - 2 PK,True,True,151,506,Pengecekan AC,
+SRVC009,service,AC,Penambah Freon R-22 - 0.5 - 1 PK,True,True,120,492,Penambahan Freon,
+SRVC011,service,AC,Penambah Freon R-32 - 0.5 - 1 PK,True,True,120,492,Penambahan Freon,
+SRVC012,service,AC,Penambah Freon R-32 - 1.5 - 2 PK,True,True,120,492,Penambahan Freon,
+SRVC013,service,AC,Penambah Freon R-410 - 0.5 - 1 PK,True,True,121,493,Penambahan Freon,
+SRVC014,service,AC,Penambah Freon R-410 - 1.5 - 2 PK,True,True,121,493,Penambahan Freon,
+SRVC015,service,AC,Penambah Freon R-22 - 1.5 - 2 PK,True,True,120,518,Penambahan Freon,
+SRVC016,service,AC,Refill / Isi Full Freon R-22 - 1.5 - 2 PK,True,True,94,520,Refill / Isi,
+SRVC017,service,AC,Refill / Isi Full Freon R-32 - 0.5 - 1 PK,True,True,94,519,Refill / Isi,
+SRVC018,service,AC,Refill / Isi Full Freon R-32 - 1.5 - 2 PK,True,True,94,520,Refill / Isi,
+SRVC019,service,AC,Refill / Isi Full Freon R-410 - 0.5 - 1 PK,True,True,95,520,Refill / Isi,
+SRVC020,service,AC,Refill / Isi Full Freon R-410 - 1.5 - 2 PK,True,True,95,521,Refill / Isi,
+SRVC021,service,AC,Jasa Pasang AC Split - 0.5 - 1 PK,True,True,117,638,Jasa Pasang AC,
+SRVC022,service,AC,Jasa Pasang AC Split - 1.5 - 2 PK,True,True,117,579,Jasa Pasang AC,
+SRVC023,service,AC,Jasa Pasang AC Standing,True,True,93,500,Jasa Pasang AC,
+SRVC024,service,AC,Jasa Pasang AC Cassette,True,True,93,540,Jasa Pasang AC,
+SRVC025,service,AC,Bongkar AC Split - 0.5 - 1 PK,True,True,145,463,Bongkar AC,
+SRVC026,service,AC,Bongkar AC Split - 1.5 - 2 PK,True,True,145,463,Bongkar AC,
+SRVC027,service,AC,Bongkar AC Standing,True,True,99,319,Bongkar AC,
+SRVC028,service,AC,Bongkar AC Cassette,True,True,99,359,Bongkar AC,
+SRVC029,service,AC,Flushing Refrigent R11,True,True,101,499,Lainnya,
+SRVC030,service,AC,Overhoul - 0.5 - 1 PK,True,True,133,374,Overhoul,
+SRVC031,service,AC,Overhoul - 1.5 - 2 PK,True,True,133,378,Overhoul,
+SRVC032,service,AC,Pengelasan Atau Shock Pipa - 0.5 - 1 PK,True,True,126,299,Lainnya,
+SRVC033,service,AC,Pengelasan Atau Shock Pipa - 1.5 - 2 PK,True,True,126,299,Lainnya,
+SRVC034,service,AC,Pengelasan Evaporator,True,True,108,570,Lainnya,
+SRVC035,service,AC,Pembobokan,True,True,81,535,Lainnya,
+SRVC036,service,AC,Vacum,True,True,102,539,Lainnya,
+SRVC037,service,AC,Thermistor,True,True,89,519,Lainnya,
+SRVC038,service,AC,Module AC - 0.5 - 1 PK,True,True,121,513,Lainnya,
+SRVC039,service,AC,Module AC - 1.5 - 2 PK,True,True,121,523,Lainnya,
+SRVC041,service,CCTV,Paket SPC - 4 Kamera Indoor,True,True,114,1649,4 Kamera Indoor,
+SRVC042,service,CCTV,Paket DAHUA - 4 Kamera Indoor,True,True,108,1607,4 Kamera Indoor,
+SRVC043,service,CCTV,Paket HIKVISION - 4 Kamera Indoor,True,True,115,1701,4 Kamera Indoor,
+SRVC045,service,CCTV,Paket SPC - 4 Kamera (2 Indoor + 2 Outdoor),True,True,116,1548,4 Kamera (2 Indoor + 2 Outdoor),
+SRVC046,service,CCTV,Paket HIKVISION - 4 Kamera (2 Indoor + 2 Outdoor),True,True,114,1551,4 Kamera (2 Indoor + 2 Outdoor),
+SRVC047,service,CCTV,Paket DAHUA - 4 Kamera (2 Indoor + 2 Outdoor),True,True,116,1544,4 Kamera (2 Indoor + 2 Outdoor),
+SRVC048,service,CCTV,Paket SPC - 8 Kamera Indoor,True,True,127,1594,8 Kamera Indoor,
+SRVC049,service,CCTV,Paket HIKVISION - 8 Kamera Indoor,True,True,114,1583,8 Kamera Indoor,
+SRVC050,service,CCTV,Paket DAHUA - 8 Kamera Indoor,True,True,121,1552,8 Kamera Indoor,
+SRVC051,service,CCTV,Paket SPC - 8 Kamera (6 Indoor + 2 Outdoor),True,True,116,1630,8 Kamera (6 Indoor + 2 Outdoor),
+SRVC052,service,CCTV,Paket HIKVISION - 8 Kamera (6 Indoor + 2 Outdoor),True,True,111,1624,8 Kamera (6 Indoor + 2 Outdoor),
+SRVC053,service,CCTV,Paket DAHUA - 8 Kamera (6 Indoor + 2 Outdoor),True,True,122,1581,8 Kamera (6 Indoor + 2 Outdoor),
+SRVC054,service,CCTV,Paket SPC - 12 Kamera Indoor,True,True,113,1593,12 Kamera Indoor,
+SRVC055,service,CCTV,Paket HIKVISION - 12 Kamera Indoor,True,True,118,1586,12 Kamera Indoor,
+SRVC056,service,CCTV,Paket DAHUA - 12 Kamera Indoor,True,True,113,1508,12 Kamera Indoor,
+SRVC057,service,CCTV,Paket SPC - 12 Kamera (10 Indoor + 2 Outdoor),True,True,134,1550,12 Kamera (10 Indoor + 2 Outdoor),
+SRVC058,service,CCTV,Paket HIKVISION - 12 Kamera (10 Indoor + 2 Outdoor),True,True,122,1568,12 Kamera (10 Indoor + 2 Outdoor),
+SRVC059,service,CCTV,Paket DAHUA - 12 Kamera (10 Indoor + 2 Outdoor),True,True,122,1555,12 Kamera (10 Indoor + 2 Outdoor),
+SRVC060,service,CCTV,Paket SPC - 16 Kamera (12 Indoor + 4 Outdoor),True,True,124,1608,16 Kamera (12 Indoor + 4 Outdoor),
+SRVC061,service,CCTV,Paket HIKVISION - 16 Kamera (12 Indoor + 4 Outdoor),True,True,119,1598,16 Kamera (12 Indoor + 4 Outdoor),
+SRVC062,service,CCTV,Paket DAHUA - 16 Kamera (12 Indoor + 4 Outdoor),True,True,117,1605,16 Kamera (12 Indoor + 4 Outdoor),
+SRVC063,service,AC,Claim Garansi,True,False,18,0,Lainnya,
+SRVC064,service,AC,Capasitor 20-30 UF,True,True,30,1110,Lainnya,
+SRVC065,service,AC,Capasitor 35-40 UF,True,True,30,1110,Lainnya,
+SRVC066,service,AC,Capasitor 45-60 UF,True,True,30,1110,Lainnya,
+SRVC067,service,AC,Flushing Drain,True,True,104,748,Lainnya,
+SRVC068,service,AC,Flaring,True,True,181,667,Lainnya,
+SRVC069,service,AC,Capasitor Fan,True,True,16,835,Lainnya,
+SRVC070,service,AC,Bearing AC Indoor,True,True,91,917,Lainnya,
+SRVC071,service,AC,Sensor AC,True,True,254,869,Lainnya,
+SRVC072,service,AC,Bongkar Indoor AC 1.5 - 2 PK,True,True,109,2694,Bongkar AC,
+SRVC073,service,AC,Bongkar Outdoor AC 1.5 - 2 PK,True,True,110,2863,Bongkar AC,
+SRVC074,service,AC,"Pasang Indoor AC 1,5-2 PK",True,True,124,2556,Jasa Pasang AC,
+SRVC075,service,AC,"Pasang Outdoor AC 1,5-2 PK",True,True,125,2728,Jasa Pasang AC,
+SRVC076,service,AC,"Pasang Outdoor AC 0,5-1 PK",True,True,125,2724,Jasa Pasang AC,
+SRVC077,service,AC,"Pasang Indoor AC 0,5-1 PK",True,True,124,2506,Jasa Pasang AC,
+SRVC078,service,AC,"Bongkar Outdoor AC 0,5-1 PK",True,True,110,2861,Bongkar AC,
+SRVC079,service,AC,"Bongkar Indoor AC 0,5-1 PK",True,True,109,2692,Bongkar AC,
+SRVC080,service,AC,"IC AC 0,5-1 PK",True,True,157,911,Lainnya,
+SRVC081,service,AC,"Motor Fan AC 0,5-1 PK",True,True,122,863,Lainnya,
+SRVC082,service,AC,Instalasi Kelistrikan AC,True,True,24,731,Lainnya,
+SRVC083,service,AC,Instalasi Pipa Refrigeran (/meter),True,True,25,795,Lainnya,
+SRVC084,service,AC,Overload,True,True,20,1100,Lainnya,
+SRVC085,service,AC,Refill / Isi Full Freon R-22 - 0.5 - 1 PK,True,True,94,519,Refill / Isi,
+SRVC086,service,AC,Contactor AC,True,True,161,1123,Lainnya,
+SRVC087,service,AC,Service Swing Indoor AC,True,True,320,648,Lainnya,
+SRVC088,service,AC,"Motor Fan AC 1,5-2 PK",True,True,122,940,Lainnya,
+SRVC089,service,AC,Nepel AC,True,True,281,721,Lainnya,
+SRVC090,service,AC,Dinamo Swing Ac Indoor,True,True,583,1492,Lainnya,
+SRVC091,service,AC,Pengecekan AC Cassate,True,True,151,1372,Pengecekan AC,
+SRVC092,service,AC,Karet Bearing AC Indoor,True,True,206,1478,Lainnya,
+SRVC093,service,AC,Instalasi Jalur Pembuangan AC,True,False,29,0,Lainnya,
+SRVC094,service,AC,Service Fin Evaporator AC,True,False,254,0,Lainnya,
+SRVC095,service,AC,Thermostat AC,True,False,149,0,Lainnya,
